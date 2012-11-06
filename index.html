@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+     <title>Tristan Hume - Resume</title>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		   $(".node > h2").toggle(function(){
+		   $(this).parent().toggleClass("closed")
+		   	$(this).siblings("p,ul").show('slow');
+		     
+		   	//alert("hide")
+		   },function(){
+		   	//alert("show")
+		   	$(this).parent().toggleClass("closed")
+		     $(this).siblings("p,ul").hide('slow');
+		   });
+		 });
+	</script>
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px;  }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -30px 0 0 0; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif;  color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px;   }
+        dd.category { padding-left: 13px; width: 600px; float: right; border-left: 1px solid #999; min-height: 60px;}
+        dd.clear { float: none; margin: 0; height: 15px;}
+        .print {display: none}
+        @media screen {
+        	a:hover { border-bottom-style: solid; color: black; }
+        	
+        	a { color: #4B3DDF; text-decoration: none; border-bottom: 1px dotted #999; }
+        	
+        	body {background: url(images/noise.jpg);}
+        	
+        	h2.big { font-size: 26px; }
+        
+	        .node h2:before {padding-right: 5px; font-size: 15px;content: "\25BC";}
+	        .node h2 {cursor: pointer;}
+	        .closed h2:before {content: "\25B6";}
+	        .node > p,ul {display:none;}
+	        
+	        .page-break  { display:none; }
+        }
+        @media print {
+        	a { border-bottom-style: none; color: black; text-decoration: none;}
+        	.no-print {display: none;}
+        	.vv-only {display: none;}
+        	.print {display: block}
+        	.screen {display: none}
+        	.page-break  { display:block; page-break-before:always; }
+        }
+     </style>
+</head>
+
+<body>
+
+    <div id="page-wrap">
+    
+        <img src="images/Thyperspace-bubble.png" alt="Logo" width="140" id="pic" />
+    
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+        
+            <h1 class="fn">Tristan Hume</h1>
+        
+            <p>
+                Home: <span class="tel">(613) 723-5664</span><br />
+                Email: <a class="email" href="mailto:tristan@hume.ca">tristan@hume.ca</a><br />
+                Website: <a href="http://tristan.hume.ca">http://tristan.hume.ca/</a><br />
+                Github: <a href="http://github.com/trishume">http://github.com/trishume</a>
+                <span class="print">Fully Linked Online Resume: <a href="http://tristan.hume.ca/resume">http://tristan.hume.ca/resume</a></span>
+            </p>
+        </div>
+                
+        <div id="objective">
+            <p>
+                I am a 16 year old grade 10 student interested in programming, electronics, science and all things tech-related. I took grade 11 programming, have won gold medals in the Ottawa regional science fair in two consecutive years, taught a course on web design to kids at my school and been paid to write apps for a professor.
+            </p>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Experience</dt>
+            <dd class="category">
+            	<div class="node closed">
+	                <h2 class="big">The Open Turing Project <span>Founder / Lead Developer</span></h2>
+	                <ul>
+	                	<li>Open Turing is an Open Source fork of Turing for Windows.</li>
+	            		<li>I acquired the source code from the original developers and fixed it up.</li>
+	            		<li>I optimized the interpreter and added new features like 3D graphics and hash maps.</li>
+	            		<li>It now has <b>over 400 users.</b></li>
+	            		<li>I designed it's <a href="/openturing">website</a>.</li>             	
+	                    <li>Wrote a <a href="/openturing/#neweditor">new editor</a> in Qt and C++ (Currently in public beta)</li>
+	                    <li>I am busy writing a compiler for Turing with the LLVM toolkit.</li>
+	                </ul>
+                </div>
+                <div class="node closed">
+	                <h2 class="big">iPad App Developer <span>2011 to present</span></h2>
+	                <ul>
+	                	<li>I developed <a href="http://tristan.hume.ca/ix">PathSpan</a>, an iPad app used to perform a common spatial memory test used by psychological researchers.</li>
+	                	<li>The app was developed for a professor at Carleton University, who used it in a study.</li>
+	                	<li>PathSpan is now available on the Apple App Store.</li>
+	                	<li>The professor was pleased with the app and later hired me to write another app, NumberLine. Which is in the process of being submitted to the App Store.</li>
+	                </ul>
+                </div>
+                
+                <div class="node closed">
+	                <h2>Bell High School <span>Website co-maintainer / IT Representative  </span></h2>
+	                <ul>
+	                    <li>I maintain and add content to the <a href="http://bellhs.net">Bell website (bellhs.net).</a> </li>
+	                    <li>I programmed the <a href="http://bellhs.net/map">Bell map (bellhs.net/map).</a></li>
+	                </ul>
+                </div>
+                
+                <div class="node closed">
+	                <h2>Google Code-In <span>Participant 2012</span></h2>
+	                <ul>
+	                	<li>The Google Code-In is a program where Google pays pre-university programmers to complete programming tasks for open source projects.</li>
+	                	<li>I completed tasks for many different projects including SymPy, HedgeWars, The Parrot Foundation and KDE.</li>
+	                	<li>The projects were happy with my work. I completed 7 tasks total.</li>
+	                </ul>
+                </div>
+                
+            	<div class="node closed">            	
+	                <h2>Virtual Ventures <span>Volunteer and Attendee 2004-2011</span></h2>
+	                <ul>
+	                    <li>Attended the Virtual Ventures computer camp every summer 2004-2010.</li>
+	                    <li>Volunteered at the camp for 2 weeks during the summer of 2011.</li>
+	                </ul>
+                </div>
+                
+                
+                <div class="node closed">
+                <h2>National Science Fair <span>Member of Team Ottawa 2010</span></h2>
+                <ul>
+                    <li>Won gold in Engineering and Computer Science and was selected to represent Ottawa at the National Science Fair in Peterborough.</li>
+                    <li>For my project I built an electroencephalograph (EEG) which is a device that measures brain waves.</li>
+                </ul></div>
+                <div class="node closed no-print">
+                <h2>Web Design Instructor <span>Bishop Hamilton School, 2009</span></h2>
+                <ul>
+                    <li><b>I was hired to teach a course to grade 4, 5 and 6 students on designing web sites.</b></li>
+                    <li>I taught the students how to create basic web sites as well as other computer skills.</li>
+                    <li>The school and students were pleased and I was asked to teach the course again.</li>
+                </ul></div>
+                <div class="node closed no-print">
+                <h2>Tristan.Hume.ca <span>Owner / Developer</span></h2>
+                <ul>
+                    <li>Includes content made from 2005-present.</li>
+                    <li>Showcases various games, photos and programs I have created.</li>
+                    <li>Visit it at <a href="http://tristan.hume.ca">http://tristan.hume.ca</a></li>
+                </ul></div>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Skills</dt>
+            <dd class="category">
+            	<div class="node closed">
+                <h2>Programming</h2>
+                <ul>
+                    <li>I am skilled in many languages including PHP, Javascript, Ruby, Java, Objective-C,Processing and Actionscript.</li>
+                    <li>I was among <b>the 2,000 out of 12,000</b> participants in the first round of the <a href="http://code.google.com/codejam/">Google Code Jam</a> 2011 <b>to achieve a perfect score</b>.</li>
+                </ul>
+                </div>
+                <div class="node closed">
+                <h2>Other Tech skills</h2>
+                <ul>
+                	<li>I am an experienced Arduino programmer.</li>
+                	<li>I know how to build electronic circuits and have built a few large circuits<a class="screen" href="http://openeeg.sourceforge.net/doc/modeeg/modEEGamp-v1.0.png"> including this one</a>.</li>
+                	<li>I read "the Art of Electronics" a 700+ page tome covering many electronics topics including FETs,digital logic and circuit design. I do not claim to have understood the whole thing.</li>
+                	<li>I have experience using Adobe applications such as <a href="http://tristan.hume.ca/?page=x/media.php">Photoshop</a>, <a href="http://tristan.hume.ca/?page=pages/games.php">Flash</a> and Illustrator.</li>
+                    <li class="vv-only">I have owned and used Lego robotics sets (RCX &amp; NXT) since grade 3.</li>
+                    <li class="no-print">I possess significant knowledge of Unix (piping,bash scripts, etc...)</li>
+                </ul>
+                </div>               
+              <div class="node closed vv-only">
+                <h2>Non-Technology related skills</h2>
+                <ul>
+                    <li>I have completed a child care training course.</li>
+                </ul>
+                </div>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Education</dt>
+            <dd class="category">
+                	<h2>Bell High School</h2>
+                	<p>I run <a href="http://bellhs.net/programmingclub">programming club</a>. I <b>took grade 11 programming.</b> I have programmed many things for it including a 3D engine, a browser and the game of life. As my summative I <a href="https://github.com/trishume/TuringInTuring">implemented the Turing language within itself.</a></p>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>References</dt>
+            <dd class="category">Available on request</dd>
+            
+            <dd class="clear"></dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div>
+
+</body>
+
+</html>
