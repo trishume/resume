@@ -12,7 +12,7 @@
            $(".node > h2").toggle(function(){
            $(this).parent().toggleClass("closed")
             $(this).siblings("p,ul").show('slow');
-             
+
             //alert("hide")
            },function(){
             //alert("show")
@@ -31,7 +31,7 @@
         h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
         h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
         p { margin: 0 0 16px 0; }
-        
+
         a:hover { border-bottom-style: solid; color: black; }
         ul { margin: 0 0 32px 17px; }
         #objective { width: 500px; float: left; }
@@ -42,18 +42,18 @@
         .print {display: none}
         @media screen {
             a:hover { border-bottom-style: solid; color: black; }
-            
+
             a { color: #4B3DDF; text-decoration: none; border-bottom: 1px dotted #999; }
-            
+
             body {background: url(images/noise.jpg);}
-            
+
             h2.big { font-size: 26px; }
-        
+
             .node h2:before {padding-right: 5px; font-size: 15px;content: "\25BC";}
             .node h2 {cursor: pointer;}
             .closed h2:before {content: "\25B6";}
             .node > p,ul {display:none;}
-            
+
             .page-break  { display:none; }
         }
         @media print {
@@ -70,15 +70,15 @@
 <body>
 
     <div id="page-wrap">
-    
+
         <img src="images/Thyperspace-bubble.png" alt="Logo" width="140" id="pic" />
-    
+
         <div id="contact-info" class="vcard">
-        
+
             <!-- Microformats! -->
-        
+
             <h1 class="fn">Tristan Hume</h1>
-        
+
             <p>
                 Home: <span class="tel">(613) 723-5664</span><br />
                 Email: <a class="email" href="mailto:tristan@thume.ca">tristan@thume.ca</a><br />
@@ -87,30 +87,37 @@
                 <span class="print">Fully Linked Online Resume: http://thume.ca/resume</span>
             </p>
         </div>
-                
+
         <div id="objective">
             <p>
-                I am a 16 year old grade 11 student programmer from Bell High School. I have worked at a large software company doing Java development, developed two iPad apps for a professor at Carleton University and started an open source project with over 500 users. I'm particularly interested in compilers, the Ruby language and algorithmic programming.
+                I am a 17 year old student programmer from Bell High School. I have worked at a large software company doing Ruby and Java development, developed two iPad apps for a professor at Carleton University and started open source projects with over 5,000 combined users. I'm particularly interested in compilers, the Ruby language and algorithmic programming.
             </p>
         </div>
-        
+
         <div class="clear"></div>
-        
+
         <dl>
-            
+
             <dd class="clear"></dd>
-            
+
             <dt>Experience</dt>
             <dd class="category">
                 <div class="node closed">
-                    <h2 class="big">The Eclipse Foundation <span>Co-op Student Developer</span></h2>
+                    <h2 class="big">Shopify <span>Student Developer, Summer 2013</span></h2>
+                    <ul>
+                        <li>Wrote a <a href="https://github.com/Shopify/liquid/pull/235">new parser</a> for <a href="https://github.com/shopify/liquid">Liquid</a> that properly finds errors in templates.</li>
+                        <li>Worked on 10+ different Ruby on Rails projects. Implemented new features and responded to customer requests.</li>
+                    </ul>
+                </div>
+                <div class="node closed">
+                    <h2 class="big">The Eclipse Foundation <span>Co-op Student Developer, Fall 2012</span></h2>
                     <ul>
                         <li>Submitted patches for many bugs including ones that have been around for eleven years and have affected hundreds of thousands of people.</li>
                         <li>Contributed to many different projects including the DLTK Ruby IDE.</li>
                     </ul>
                 </div>
                 <div class="node closed">
-                    <h2 class="big">Halogen Software <span>Student Software Developer</span></h2>
+                    <h2 class="big">Halogen Software <span>Student Software Developer, Summer 2012</span></h2>
                     <ul>
                         <li>
                             Set out to improve a data entry process, developed a tool that automates most of the process, the tool shortened a process that <b>took weeks</b> to one that <strong>takes 30 minutes</strong>.
@@ -129,18 +136,18 @@
                     </ul>
                 </div>
                 <div class="node closed">
-                    <h2>The Open Turing Project <span>Founder / Lead Developer</span></h2>
+                    <h2>The Open Turing Project <span>Developer</span></h2>
                     <ul>
                         <li>Open Turing is an Open Source fork of Turing for Windows.</li>
                         <li>I acquired the source code from the original developers and fixed it up.</li>
                         <li>I optimized the interpreter and added new features like 3D graphics and hash maps.</li>
-                        <li>It now has <b>over 400 users.</b></li>
-                        <li>I designed it's <a href="/openturing">website</a>.</li>                 
+                        <li>It now has <b>over 2,000 users.</b></li>
+                        <li>I designed it's <a href="/openturing">website</a>.</li>
                         <li>Wrote a <a href="/openturing/#neweditor">new editor</a> in Qt and C++ (Currently in public beta)</li>
                         <li>I wrote <a href="https://github.com/Open-Turing-Project/OpenTuringCompiler">a compiler</a> using LLVM for a limited subset of the language.</li>
                     </ul>
                 </div>
-                
+
                 <div class="node closed">
                     <h2>Bell High School <span>Website co-maintainer / IT Representative  </span></h2>
                     <ul>
@@ -148,7 +155,7 @@
                         <li>I programmed the <a href="http://bellhs.net/map">Bell map (bellhs.net/map).</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="node closed">
                     <h2>Google Code-In <span>Participant 2012</span></h2>
                     <ul>
@@ -157,16 +164,16 @@
                         <li>The projects were happy with my work. I completed 7 tasks total.</li>
                     </ul>
                 </div>
-                
-                <div class="node closed">               
+
+                <div class="node closed">
                     <h2>Virtual Ventures <span>Volunteer and Attendee 2004-2011</span></h2>
                     <ul>
                         <li>Attended the Virtual Ventures computer camp every summer 2004-2010.</li>
                         <li>Volunteered at the camp for 2 weeks during the summer of 2011.</li>
                     </ul>
                 </div>
-                
-                
+
+
                 <div class="node closed">
                 <h2>National Science Fair <span>Member of Team Ottawa 2010</span></h2>
                 <ul>
@@ -174,9 +181,9 @@
                     <li>For my project I built an electroencephalograph (EEG) which is a device that measures brain waves.</li>
                 </ul></div>
             </dd>
-            
+
             <dd class="clear"></dd>
-            
+
             <dt>Skills</dt>
             <dd class="category">
                 <div class="node closed">
@@ -196,33 +203,35 @@
                     <li class="vv-only">I have owned and used Lego robotics sets (RCX &amp; NXT) since grade 3.</li>
                     <li class="no-print">I possess significant knowledge of Unix (piping,bash scripts, etc...)</li>
                 </ul>
-                </div>               
+                </div>
               <div class="node closed vv-only">
                 <h2>Non-Technology related skills</h2>
                 <ul>
-                    <li>I have completed a child care training course.</li>
+                    <li>I study and learn about finance and economics.</li>
+                    <li>I can ride a bicycle without using my hands.</li>
+                    <li>I am a confident public speaker able to improvise presentations on demand.</li>
                 </ul>
                 </div>
             </dd>
-            
+
             <dd class="clear"></dd>
-            
+
             <dt>Education</dt>
             <dd class="category">
                     <h2>Bell High School</h2>
-                    <p>I run <a href="http://bellhs.net/programmingclub">programming club</a>. I <b>took grade 11 programming.</b> I have programmed many things for it including a 3D engine, a browser and the game of life. As my summative I <a href="https://github.com/trishume/TuringInTuring">implemented the Turing language within itself.</a></p>
+                    <p>I run <a href="http://bellhs.net/programmingclub">programming club</a>. I got a 100% in grade 12 programming. I have programmed many things for courses including a 3D engine, a browser and the game of life. As a summative I <a href="https://github.com/trishume/TuringInTuring">implemented the Turing language within itself.</a></p>
             </dd>
-            
+
             <dd class="clear"></dd>
-            
+
             <dt>References</dt>
             <dd class="category">Available on request</dd>
-            
+
             <dd class="clear"></dd>
         </dl>
-        
+
         <div class="clear"></div>
-    
+
     </div>
 
 </body>
