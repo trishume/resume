@@ -34,10 +34,10 @@
 
         a:hover { border-bottom-style: solid; color: black; }
         ul { margin: 0 0 32px 17px; }
-        #objective { width: 500px; float: left; }
+        #objective { width: 600px; float: left; }
         #objective p { font-family: Georgia, Serif;  color: #666; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px;   }
-        dd.category { padding-left: 13px; width: 600px; float: right; border-left: 1px solid #999; min-height: 60px;}
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 80px; float: left; height: 100px;   }
+        dd.category { padding-left: 13px; width: 670px; float: right; border-left: 1px solid #999; min-height: 60px;}
         dd.clear { float: none; margin: 0; height: 15px;}
         .print {display: none}
         @media screen {
@@ -90,7 +90,7 @@
 
         <div id="objective">
             <p>
-                I am a student programmer from Bell High School. I have worked at Shopify, The Eclipse Foundation and Halogen Software doing Ruby and Java development, developed two iPad apps for a professor at Carleton University and started open source projects with over 5,000 combined users. I'm particularly interested in computer vision, compilers and algorithmic programming.
+                I am a student programmer from Bell High School. I have worked at Shopify, The Eclipse Foundation and Halogen Software doing Ruby and Java development, released three iPad apps and started open source projects with over 5,000 combined users. I'm particularly interested in computer vision, compilers and finance.
             </p>
         </div>
 
@@ -105,8 +105,9 @@
                 <div class="node closed">
                     <h2 class="big">Shopify <span>Student Developer, Summer 2013</span></h2>
                     <ul>
-                        <li>Wrote a <a href="https://github.com/Shopify/liquid/pull/235">new parser</a> for <a href="https://github.com/shopify/liquid">Liquid</a> that properly finds errors in templates.</li>
                         <li>Worked on 10+ different Ruby on Rails projects. Implemented new features and responded to customer requests.</li>
+                        <li>Wrote a <a href="https://github.com/Shopify/liquid/pull/235">recursive descent parser</a> for <a href="https://github.com/shopify/liquid">Liquid</a> that replaces the regex based one and properly detects syntax errors.</li>
+                        <li>I am returning to Shopify for the summer of 2014.</li>
                     </ul>
                 </div>
                 <div class="node closed">
@@ -129,34 +130,29 @@
                 <div class="node closed">
                     <h2 class="big">iPad App Developer <span>2011 to present</span></h2>
                     <ul>
-                        <li>I developed <a href="http://tristan.hume.ca/ix">PathSpan</a>, an iPad app used to perform a common spatial memory test used by psychological researchers.</li>
-                        <li>The app was developed for a professor at Carleton University, who used it in a study.</li>
-                        <li>PathSpan is now available on the Apple App Store.</li>
-                        <li>The professor was pleased with the app and later hired me to write another app, EstimationLine. Which is also on the App Store.</li>
+                        <li>In 2014 I released <a href="http://thume.ca/stashline">StashLine</a> an IOS app for long term personal finance planning.</li>
+                        <li>In 2011 I developed <a href="http://hume.ca/ix">PathSpan</a>, an app for administering a common spatial memory test used by psychology researchers.</li>
+                        <li>The professor who commisioned it was pleased with the app and later hired me to write another app, EstimationLine. Which is also on the App Store.</li>
                     </ul>
                 </div>
                 <div class="node closed">
-                    <h2>The Open Turing Project <span>Developer</span></h2>
+                    <h2>Open Source Development <span>Github Enthusiast</span></h2>
                     <ul>
-                        <li>Open Turing is an Open Source fork of Turing for Windows.</li>
-                        <li>I acquired the source code from the original developers and fixed it up.</li>
-                        <li>I optimized the interpreter and added new features like 3D graphics and hash maps.</li>
-                        <li>It now has <b>over 2,000 users.</b></li>
-                        <li>I designed its <a href="/openturing">website</a>.</li>
-                        <li>Wrote a <a href="/openturing/#neweditor">new editor</a> in Qt and C++ (Currently in public beta)</li>
-                        <li>I wrote <a href="https://github.com/Open-Turing-Project/OpenTuringCompiler">a compiler</a> using LLVM for a limited subset of the language.</li>
+                        <li>I developed a tool for managing git repositories called <a href="https://github.com/trishume/pro">pro</a> that is used by over 5000 programmers</li>
+                        <li>My open source webcam-based <a href="https://github.com/trishume/eyeLike">eye tracker</a> project garners near-weekly emails from researchers worldwide asking questions and telling me about their usage of it.</li>
+                        <li>I created Open Turing, an Open Source fork of Turing for Windows used by over 3000 programming students.</li>
+                        <li>I wrote a <a href="/openturing/#neweditor">new editor</a> in Qt and C++ used by thousands of people</li>
+                        <li>I wrote <a href="https://github.com/Open-Turing-Project/OpenTuringCompiler">a Turing compiler</a> using LLVM for a limited subset of the language that is 10x faster than the interpreter.</li>
                     </ul>
                 </div>
-
-                <div class="node closed">
+                <div class="node closed no-print">
                     <h2>Bell High School <span>Website co-maintainer / IT Representative  </span></h2>
                     <ul>
                         <li>I maintain and add content to the <a href="http://bellhs.net">Bell website (bellhs.net).</a> </li>
                         <li>I programmed the <a href="http://bellhs.net/map">Bell map (bellhs.net/map).</a></li>
                     </ul>
                 </div>
-
-                <div class="node closed">
+                <div class="node closed no-print">
                     <h2>Google Code-In <span>Participant 2012</span></h2>
                     <ul>
                         <li>The Google Code-In is a program where Google pays pre-university programmers to complete programming tasks for open source projects.</li>
@@ -165,7 +161,7 @@
                     </ul>
                 </div>
 
-                <div class="node closed">
+                <div class="node closed no-print">
                     <h2>Virtual Ventures <span>Volunteer and Attendee 2004-2011</span></h2>
                     <ul>
                         <li>Attended the Virtual Ventures computer camp every summer 2004-2010.</li>
@@ -174,7 +170,7 @@
                 </div>
 
 
-                <div class="node closed">
+                <div class="node closed no-print">
                 <h2>National Science Fair <span>Member of Team Ottawa 2010</span></h2>
                 <ul>
                     <li>Won gold in Engineering and Computer Science and was selected to represent Ottawa at the National Science Fair in Peterborough.</li>
@@ -189,22 +185,21 @@
                 <div class="node closed">
                 <h2>Programming</h2>
                 <ul>
-                    <li>I am skilled in many languages including PHP, Javascript, Ruby, Java, Objective-C,Processing and Actionscript.</li>
-                    <li>I was among <b>the 2,000 out of 12,000</b> participants in the first round of the <a href="http://code.google.com/codejam/">Google Code Jam</a> 2011 <b>to achieve a perfect score</b>.</li>
+                    <li>I am skilled in many languages including Ruby, Javascript, Java, C++ and Objective-C.</li>
+                    <li>My areas of expertise include Compilers, Computer Vision and iPad Apps.</li>
+                    <li>My open source projects have over 10,000 combined downloads and my blog about programming recieves over 2000 visitors per month.</li>
+                    <li>I consistently place well in programming contests including 1st in the ECOO Regionals 2014, top 50 in the CCC 2013 and have won in the Ottawa AppJam twice.
                 </ul>
                 </div>
-                <div class="node closed">
+                <div class="node closed no-print">
                 <h2>Other Tech skills</h2>
                 <ul>
-                    <li>I am an experienced Arduino programmer.</li>
-                    <li>I know how to build electronic circuits and have built a few large circuits<a class="screen" href="http://openeeg.sourceforge.net/doc/modeeg/modEEGamp-v1.0.png"> including this one</a>.</li>
-                    <li>I read "the Art of Electronics" a 700+ page tome covering many electronics topics including FETs,digital logic and circuit design. I do not claim to have understood the whole thing.</li>
-                    <li>I have experience using Adobe applications such as <a href="http://tristan.hume.ca/?page=x/media.php">Photoshop</a>, <a href="http://tristan.hume.ca/?page=pages/games.php">Flash</a> and Illustrator.</li>
+                    <li>I have some electronics and Arduino skills and have built a few large circuits<a class="screen" href="http://openeeg.sourceforge.net/doc/modeeg/modEEGamp-v1.0.png"> including an EEG</a>.</li>
                     <li class="vv-only">I have owned and used Lego robotics sets (RCX &amp; NXT) since grade 3.</li>
                     <li class="no-print">I possess significant knowledge of Unix (piping,bash scripts, etc...)</li>
                 </ul>
                 </div>
-              <div class="node closed vv-only">
+              <div class="node closed">
                 <h2>Non-Technology related skills</h2>
                 <ul>
                     <li>I study and learn about finance and economics.</li>
@@ -219,13 +214,15 @@
             <dt>Education</dt>
             <dd class="category">
                     <h2>Bell High School</h2>
-                    <p>I run <a href="http://bellhs.net/programmingclub">programming club</a>. I got a 100% in grade 12 programming. I have programmed many things for courses including a 3D engine, a browser and the game of life. As a summative I <a href="https://github.com/trishume/TuringInTuring">implemented the Turing language within itself.</a></p>
+                    <p>I run <a href="http://bellhs.net/programmingclub">programming club</a>. I achieved a 100% in grade 12 programming. I have programmed many things for courses including a 3D engine.</a></p>
             </dd>
 
             <dd class="clear"></dd>
 
-            <dt>References</dt>
-            <dd class="category">Available on request</dd>
+            <div class="no-print">
+                <dt>References</dt>
+                <dd class="category">Available on request</dd>
+            </div>
 
             <dd class="clear"></dd>
         </dl>
