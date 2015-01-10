@@ -33,10 +33,10 @@
         p { margin: 0 0 16px 0; }
 
         a:hover { border-bottom-style: solid; color: black; }
-        ul { margin: 0 0 32px 17px; }
+        ul { margin: 0 0 18px 17px; }
         #objective { width: 600px; float: left; }
         #objective p { font-family: Georgia, Serif;  color: #666; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 80px; float: left; height: 100px;   }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 80px; float: left; height: 50px;   }
         dd.category { padding-left: 13px; width: 670px; float: right; border-left: 1px solid #999; min-height: 60px;}
         dd.clear { float: none; margin: 0; height: 15px;}
         .print {display: none}
@@ -59,7 +59,6 @@
         @media print {
             a { border-bottom-style: none; color: black; text-decoration: none;}
             .no-print {display: none;}
-            .vv-only {display: none;}
             .print {display: block}
             .screen {display: none}
             .page-break  { display:block; page-break-before:always; }
@@ -84,13 +83,13 @@
                 Email: <a class="email" href="mailto:tristan@thume.ca">tristan@thume.ca</a><br />
                 Website: <a href="/">http://thume.ca/</a><br />
                 Github: <a href="http://github.com/trishume">http://github.com/trishume</a>
-                <span class="print">Fully Linked Online Resume: http://thume.ca/resume</span>
+                <span class="print">Online Resume With Links: http://thume.ca/resume</span>
             </p>
         </div>
 
         <div id="objective">
             <p>
-                I am a student programmer in CS at the University of Waterloo. I have worked at Shopify, The Eclipse Foundation and Halogen Software doing Ruby and Java development, released three iPad apps and started open source projects with over 10,000 combined users. I'm particularly interested in computer vision, compilers and finance.
+                I am a Computer Science student at the University of Waterloo. I have 5 years of experience working at Shopify, The Eclipse Foundation, and Halogen Software, developing three iPad apps and starting open source projects with over 10,000 combined users. I'm particularly interested in computer vision, compilers and finance.
             </p>
         </div>
 
@@ -133,39 +132,13 @@
                         <li>Developed a time estimate and guide for making the Halogen system section 508 accessibility standards compliant.</li>
                     </ul>
                 </div>
-                <div class="node closed">
-                    <h2 class="big">iPad App Developer <span>2011 to present</span></h2>
-                    <ul>
-                        <li>In 2014 I released <a href="http://thume.ca/stashline">StashLine</a> an IOS app for long term personal finance planning.</li>
-                        <li>In 2011 I developed <a href="http://hume.ca/ix">PathSpan</a>, an app for administering a common spatial memory test used by psychology researchers.</li>
-                        <li>The professor who commisioned it was pleased with the app and later hired me to write another app, EstimationLine. Which is also on the App Store.</li>
-                    </ul>
-                </div>
-                <div class="node closed">
-                    <h2>Open Source Development <span>Github Enthusiast</span></h2>
-                    <ul>
-                        <li>I developed a tool for managing git repositories called <a href="https://github.com/trishume/pro">pro</a> that is used by over 5000 programmers</li>
-                        <li>My open source webcam-based <a href="https://github.com/trishume/eyeLike">eye tracker</a> project garners near-weekly emails from researchers worldwide asking questions and telling me about their usage of it.</li>
-                        <li>I created Open Turing, an Open Source fork of Turing for Windows used by over 3000 programming students.</li>
-                        <li>I wrote a <a href="/openturing/#neweditor">new editor</a> in Qt and C++ used by thousands of people</li>
-                        <li>I wrote <a href="https://github.com/Open-Turing-Project/OpenTuringCompiler">a Turing compiler</a> using LLVM for a limited subset of the language that is 10x faster than the interpreter.</li>
-                    </ul>
-                </div>
-                <div class="node closed no-print">
+                <!-- <div class="node closed no-print">
                     <h2>Bell High School <span>Website co-maintainer / IT Representative  </span></h2>
                     <ul>
                         <li>I maintain and add content to the <a href="http://bellhs.net">Bell website (bellhs.net).</a> </li>
                         <li>I programmed the <a href="http://bellhs.net/map">Bell map (bellhs.net/map).</a></li>
                     </ul>
-                </div>
-                <div class="node closed no-print">
-                    <h2>Google Code-In <span>Participant 2012</span></h2>
-                    <ul>
-                        <li>The Google Code-In is a program where Google pays pre-university programmers to complete programming tasks for open source projects.</li>
-                        <li>I completed tasks for many different projects including SymPy, HedgeWars, The Parrot Foundation and KDE.</li>
-                        <li>The projects were happy with my work. I completed 7 tasks total.</li>
-                    </ul>
-                </div>
+                </div> -->
 
                 <div class="node closed no-print">
                     <h2>Virtual Ventures <span>Volunteer and Attendee 2004-2011</span></h2>
@@ -183,9 +156,28 @@
                     <li>For my project I built an electroencephalograph (EEG) which is a device that measures brain waves.</li>
                 </ul></div>
             </dd>
-
             <dd class="clear"></dd>
-
+            <div class="page-break"></div>
+            <dt>Projects</dt>
+            <dd class="category">
+                <div class="node closed">
+                    <h2 class="big">IOS Apps <span>Developer 2010 to present</span></h2>
+                    <ul>
+                        <li>In 2014 I released <a href="http://thume.ca/stashline">StashLine</a> an IOS app for long term personal finance planning.</li>
+                        <li>In 2010 I developed <a href="http://hume.ca/ix">PathSpan</a>, an app for administering a common spatial memory test used by psychology researchers, it was later released on the app store.</li>
+                        <li>The professor who commisioned it was pleased with the app and later hired me to write another app, EstimationLine. Which is also on the App Store.</li>
+                    </ul>
+                </div>
+                <div class="node closed">
+                    <h2>Open Source Development <span>Github Enthusiast</span></h2>
+                    <ul>
+                        <li>I developed a tool for managing git repositories called <a href="https://github.com/trishume/pro">pro</a> that is used by over 5000 programmers</li>
+                        <li>My open source webcam-based <a href="https://github.com/trishume/eyeLike">eye tracker</a> project garners near-weekly emails from researchers worldwide asking questions and telling me about their usage of it.</li>
+                        <li>I created Open Turing, an Open Source fork of Turing for Windows used by over 3000 programming students.</li>
+                        <li>I wrote <a href="https://github.com/Open-Turing-Project/OpenTuringCompiler">a Turing compiler</a> using LLVM for a limited subset of the language that is 10x faster than the interpreter.</li>
+                    </ul></div>
+            </dd>
+            <dd class="clear"></dd>
             <dt>Skills</dt>
             <dd class="category">
                 <div class="node closed">
@@ -194,18 +186,16 @@
                     <li>I am skilled in many languages including Ruby, Javascript, Java, C++ and Objective-C.</li>
                     <li>My areas of expertise include Compilers, Computer Vision and iPad Apps.</li>
                     <li>My open source projects have over 10,000 combined downloads and my blog about programming recieves over 2000 visitors per month.</li>
-                    <li>I consistently place well in programming contests including 1st in the ECOO Regionals 2014, top 50 in the CCC 2013 and have won in the Ottawa AppJam twice.
                 </ul>
                 </div>
-                <div class="node closed no-print">
-                <h2>Other Tech skills</h2>
+                <div class="node closed">
+                <h2>Hardware</h2>
                 <ul>
-                    <li>I have some electronics and Arduino skills and have built a few large circuits<a class="screen" href="http://openeeg.sourceforge.net/doc/modeeg/modEEGamp-v1.0.png"> including an EEG</a>.</li>
-                    <li class="vv-only">I have owned and used Lego robotics sets (RCX &amp; NXT) since grade 3.</li>
-                    <li class="no-print">I possess significant knowledge of Unix (piping,bash scripts, etc...)</li>
+                  <li>I'm able to program AVR and ARM microcontrollers and design and build basic digital circuits.</li>
+                  <li>An example of a finished product I've built is a working <a href="http://thume.ca/2014/09/08/creating-a-keyboard-1-hardware/">keyboard</a> I designed in Autocad and built with laser cut acrylic layers, Cherry MX switches and an ARM microcontroller.</li>
                 </ul>
                 </div>
-              <div class="node closed">
+              <div class="node closed no-print">
                 <h2>Non-Technology related skills</h2>
                 <ul>
                     <li>I study and learn about finance and economics.</li>
@@ -214,21 +204,36 @@
                 </ul>
                 </div>
             </dd>
+            <dd class="clear"></dd>
+            <dt>Awards</dt>
+            <dd class="category">
+              <h2>Ottawa AppJam <span>Winner 2012, 2013, 2014</span></h2>
+                <p>In 2014 I won with <a href="http://thume.ca/stashline">StashLine</a>. In 2013 I won with my
+                  <a href="https://github.com/Open-Turing-Project/OpenTuringCompiler">Turing Compiler</a>.
+                  In 2012 I won with <a href="http://hume.ca/ix">PathSpan</a>.
+                Each year all entries were judged by a panel of industry judges and I won a combined
+                  $2750 in prize money.</p>
+                <h2>ECOO Programming Contest<span>Finalist 2012, 2013, 2014</span></h2>
+                <p>
+                  My team made it to the Ontario finals all three years and in 2014 I was the main programmer for
+                  a team that came first in eastern Ontario and later 5th overall.
+                </p>
+            </dd>
 
             <dd class="clear"></dd>
 
             <dt>Education</dt>
             <dd class="category">
-                    <h2>Bell High School</h2>
-                    <p>I run <a href="http://bellhs.net/programmingclub">programming club</a>. I achieved a 100% in grade 12 programming. I have programmed many things for courses including a 3D engine.</a></p>
+              <h2>University of Waterloo <span>Candidate for Bachelor of Computer Science</span></h2>
+              <p>Currently in my 1B term, in 1A I earned an average of 88.4%.</p>
             </dd>
 
             <dd class="clear"></dd>
 
-            <div class="no-print">
+            <!-- <div class="no-print">
                 <dt>References</dt>
                 <dd class="category">Available on request</dd>
-            </div>
+            </div> -->
 
             <dd class="clear"></dd>
         </dl>
