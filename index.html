@@ -31,16 +31,19 @@
         h1 small {font-size: 14px; letter-spacing:0px; color: grey; font-weight: normal;}
         h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
         h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        h2 small { font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal;}
         p { margin: 0 0 16px 0; }
 
         a:hover { border-bottom-style: solid; color: black; }
         ul { margin: 0 0 18px 17px; }
-        #objective { width: 600px; float: left; }
+        #objective { width: 800px; float: left; }
         #objective p { font-family: Georgia, Serif;  color: #666; }
         dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 80px; float: left; height: 50px;   }
         dd.category { padding-left: 13px; width: 670px; float: right; border-left: 1px solid #999; min-height: 60px;}
         dd.clear { float: none; margin: 0; height: 15px;}
         .print {display: none}
+        #pic {display:none}
+      .no-print {display: none;}
         @media screen {
             a:hover { border-bottom-style: solid; color: black; }
 
@@ -52,14 +55,13 @@
 
             .node h2:before {padding-right: 5px; font-size: 15px;content: "\25BC";}
             .node h2 {cursor: pointer;}
-            .closed h2:before {content: "\25B6";}
-            .node > p,ul {display:none;}
+            /*.closed h2:before {content: "\25B6";}
+            .node > p,ul {display:none;}*/
 
             .page-break  { display:none; }
         }
         @media print {
             a { border-bottom-style: none; color: black; text-decoration: none;}
-            .no-print {display: none;}
             .print {display: block}
             .screen {display: none}
             .page-break  { display:block; page-break-before:always; }
@@ -77,12 +79,12 @@
 
             <!-- Microformats! -->
 
-            <h1 class="fn">Tristan Hume <small>1A Computer Science Candidate, #20561771</small></h1>
+            <h1 class="fn">Tristan Hume <small>1A Computer Science, #20561771</small></h1>
 
 
             <p>
-                Mobile: <span class="tel">(613) 862-8776</span><br />
-                Address: University of Waterloo Village 1 East 2 306<br/>
+                Mobile Phone: <span class="tel">(613) 862-8776</span><br />
+                Address: 200 University Avenue West, Village 1 East 2, 306<br/>
                 Email: <a class="email" href="mailto:tristan@thume.ca">tristan@thume.ca</a><br />
                 Website: <a href="/">http://thume.ca/</a><br />
                 Github: <a href="http://github.com/trishume">http://github.com/trishume</a>
@@ -107,14 +109,14 @@
                 <div class="node closed">
                     <h2 class="big">Shopify (Stack Team) <span>Developer Intern, Summer 2014</span></h2>
                     <ul>
-                        <li>Worked on infrastructure for containerized deployment of Shopify using Docker, Chef and Go.</li>
+                        <li>Worked on infrastructure for containerized deployment of Shopify using Docker, Chef, Etcd and Go.</li>
                         <li>Developed a tool that enables testing resiliency of web apps to external services like Redis being down. Uses iptables to block services and Go for logic and serving a web UI.</li>
                     </ul>
                 </div>
                 <div class="node closed">
                     <h2 class="big">Shopify (Apps Team)<span>Developer Intern, Summer 2013</span></h2>
                     <ul>
-                        <li>Worked on 10+ different Ruby on Rails projects. Implemented new features and responded to customer requests.</li>
+                        <li>Improved on 10+ different Ruby on Rails projects. Implemented new features and responded to customer requests.</li>
                         <li>Wrote a <a href="https://github.com/Shopify/liquid/pull/235">recursive descent parser</a> for <a href="https://github.com/shopify/liquid">Liquid</a> that replaces the regex based one and properly detects syntax errors.</li>
                     </ul>
                 </div>
@@ -129,10 +131,11 @@
                     <h2 class="big">Halogen Software <span>Student Software Developer, Summer 2012</span></h2>
                     <ul>
                         <li>
-                            Set out to improve a data entry process, developed a tool that automates most of the process, the tool shortened a process that <b>took weeks</b> to one that <strong>takes 30 minutes</strong>.
+                            Improved a data entry process by developing a tool with Ruby that automates most of the formerly manual work. The tool shortened a process that took <b>two weeks</b> of human effort to one that takes <strong>30 minutes</strong>.
                         </li>
-                        <li>My tool later won second place in the company's Leonardo innovation awards.</li>
-                        <li>Developed a time estimate and guide for making the Halogen system section 508 accessibility standards compliant.</li>
+                        <li>Won second place in the company's innovation awards with my automation tool while competing against
+                          long term employees who had much more time to work on their projects.</li>
+                        <li>Developed a time estimate, prototype and guide for making the Halogen system section 508 accessibility standards compliant.</li>
                     </ul>
                 </div>
                 <!-- <div class="node closed no-print">
@@ -166,18 +169,18 @@
                 <div class="node closed">
                     <h2 class="big">IOS Apps <span>Developer 2010 to present</span></h2>
                     <ul>
-                        <li>In 2014 I released <a href="http://thume.ca/stashline">StashLine</a> an IOS app for long term personal finance planning.</li>
-                        <li>In 2010 I developed <a href="http://hume.ca/ix">PathSpan</a>, an app for administering a common spatial memory test used by psychology researchers, it was later released on the app store.</li>
-                        <li>The professor who commisioned it was pleased with the app and later hired me to write another app, EstimationLine. Which is also on the App Store.</li>
+                        <li>Released <a href="http://thume.ca/stashline">StashLine</a> an IOS app for long term personal finance planning in 2014.</li>
+                        <li>Developed EstimationLine, an app for testing numerical judgement, to a Carleton University professor who was pleased with my previous work for her.</li>
+                        <li>Delivered <a href="http://hume.ca/ix">PathSpan</a> to the Carleton Psychology professor in 2010, an app for administering a common spatial memory test used by researchers, it was later released on the app store.</li>
                     </ul>
                 </div>
                 <div class="node closed">
                     <h2>Open Source Development <span>Github Enthusiast</span></h2>
                     <ul>
-                        <li>I developed a tool for managing git repositories called <a href="https://github.com/trishume/pro">pro</a> that is used by over 5000 programmers</li>
-                        <li>My open source webcam-based <a href="https://github.com/trishume/eyeLike">eye tracker</a> project garners near-weekly emails from researchers worldwide asking questions and telling me about their usage of it.</li>
-                        <li>I created Open Turing, an Open Source fork of Turing for Windows used by over 3000 programming students.</li>
-                        <li>I wrote <a href="https://github.com/Open-Turing-Project/OpenTuringCompiler">a Turing compiler</a> using LLVM for a limited subset of the language that is 10x faster than the interpreter.</li>
+                        <li>Created a tool for managing git repositories called <a href="https://github.com/trishume/pro">pro</a> that is used by over 5000 programmers.</li>
+                        <li>Researched and implemented an open source webcam-based <a href="https://github.com/trishume/eyeLike">eye tracker</a> project that garners near-weekly emails from researchers worldwide asking questions.</li>
+                        <li>Developed Open Turing, an Open Source fork of Turing for Windows used by over 3000 high school programming students in Canada.</li>
+                        <li>Wrote <a href="https://github.com/Open-Turing-Project/OpenTuringCompiler">a Turing compiler</a> using LLVM that is 10x faster than the interpreter.</li>
                     </ul></div>
             </dd>
             <dd class="clear"></dd>
@@ -186,23 +189,23 @@
                 <div class="node closed">
                 <h2>Programming</h2>
                 <ul>
-                    <li>I am skilled in many languages including Ruby, Javascript, Java, C++ and Objective-C.</li>
-                    <li>My areas of expertise include Compilers, Computer Vision and iPad Apps.</li>
-                    <li>My open source projects have over 10,000 combined downloads and my blog about programming recieves over 2000 visitors per month.</li>
+                    <li>Skilled in many languages including Ruby, Javascript, Java, C++ and Objective-C.</li>
+                    <li>Knowledgable about Compilers, Computer Vision and iPad Apps.</li>
+                    <li>Created open source projects that have over 10,000 combined downloads and my blog about programming recieves over 7000 visitors per month.</li>
                 </ul>
                 </div>
                 <div class="node closed">
                 <h2>Hardware</h2>
                 <ul>
-                  <li>I'm able to program AVR and ARM microcontrollers and design and build basic digital circuits.</li>
-                  <li>An example of a finished product I've built is a working <a href="http://thume.ca/2014/09/08/creating-a-keyboard-1-hardware/">keyboard</a> I designed in Autocad and built with laser cut acrylic layers, Cherry MX switches and an ARM microcontroller.</li>
+                  <li>Able to program AVR and ARM microcontrollers and design and build basic digital circuits.</li>
+                  <li>Built a working <a href="http://thume.ca/2014/09/08/creating-a-keyboard-1-hardware/">keyboard</a> I designed in Autocad and built with laser cut acrylic layers, Cherry MX switches and an ARM microcontroller.</li>
                 </ul>
                 </div>
               <div class="node closed no-print">
                 <h2>Non-Technology related skills</h2>
                 <ul>
-                    <li>I study and learn about finance and economics.</li>
-                    <li>I can ride a bicycle without using my hands.</li>
+                    <li>Interested in finance, investing, politics and economics.</li>
+                    <li>Can ride a bicycle without using my hands.</li>
                     <li>I am a confident public speaker able to improvise presentations on demand.</li>
                 </ul>
                 </div>
@@ -214,12 +217,14 @@
                 <p>In 2014 I won with <a href="http://thume.ca/stashline">StashLine</a>. In 2013 I won with my
                   <a href="https://github.com/Open-Turing-Project/OpenTuringCompiler">Turing Compiler</a>.
                   In 2012 I won with <a href="http://hume.ca/ix">PathSpan</a>.
-                Each year all entries were judged by a panel of industry judges and I won a combined
-                  $2750 in prize money.</p>
+                  The contest is run by The Ottawa Network For Education and entries were judged by a panel of industry judges. I won a combined
+                  $2750 in prize money from Halogen Software, CIRA, and Espial.
+                </p>
                 <h2>ECOO Programming Contest<span>Finalist 2012, 2013, 2014</span></h2>
                 <p>
                   My team made it to the Ontario finals all three years and in 2014 I was the main programmer for
-                  a team that came first in eastern Ontario and later 5th overall.
+                  a team that came first in eastern Ontario and later 5th overall. It is Ontario's largest team programming
+                  contest and it has 3 rounds and hundreds of competing teams.
                 </p>
             </dd>
 
@@ -227,7 +232,7 @@
 
             <dt>Education</dt>
             <dd class="category">
-              <h2>University of Waterloo <span>Candidate for Bachelor of Computer Science Since 2014</span></h2>
+              <h2>University of Waterloo <br><small>Candidate for Bachelor of Computer Science, Waterloo, Ontario, September 2014-present</small></h2>
               <p>Currently in my 1B term, in 1A I earned an average of 88.4%. I've taken advanced Computer Science
               and multiple math courses along with electives like Public Speaking and Psychology.</p>
             </dd>
