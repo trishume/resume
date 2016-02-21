@@ -12,6 +12,13 @@ abbr {
   cursor: help;
 }
 
+.links {
+  font-size: 18px;
+  .fa {
+    width: 30px;
+  }
+}
+
 .item {
   margin-bottom: 10px;
 }
@@ -19,6 +26,7 @@ abbr {
 .item-header {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
 }
@@ -33,15 +41,20 @@ abbr {
   // font-family: 'PT Sans', sans-serif;
 }
 
-.sidebar div h2 {
+.sidebar div:first-child h2 {
   margin-top: 10px;
+}
+.sidebar div h2 {
+  margin-top: 3px;
   margin-bottom: 0px;
 }
 .sidebar p {
   padding-top: 0px;
 }
 .sidebar h5 {
-  font-weight: bold;
+  font-family: "PT Sans Caption", sans-serif;
+  // font-weight: bold;
+  color: #888;
   margin-top: 0px;
 }
 
@@ -84,7 +97,7 @@ abbr {
 }
 
 .container {
-  padding:5px 10mm;
+  padding:5px 10px;
   margin: 0 auto;
   width:800px;
   display:-webkit-box;
@@ -92,9 +105,12 @@ abbr {
   display:-ms-flexbox;
   display:flex;
 }
+
 .header {
-  display:block;
+  margin-top: 15px;
+  align-items: flex-end;
 }
+
 .main {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -127,11 +143,15 @@ li {
   margin-top:5px;
   line-height: 1.5;
 }
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+}
+
 h1 {
   font-size:44px;
   font-family: 'PT Sans Caption', sans-serif;
-  font-weight:bold;
-  margin: 15px 0 5px 0;
+  margin: 0px 0 5px 0;
 }
 h1 a {
   text-decoration:none;
@@ -312,7 +332,6 @@ h3 a:hover {
     padding-top:0;
   }
   .print h1 {
-    color:#1580C2 !important;
     border-bottom:2px solid #000;
     margin-top:10mm;
     margin-bottom:4mm;
