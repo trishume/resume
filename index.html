@@ -27,58 +27,12 @@
 
     <div class="container">
       <div class="sidebar">
-        <h2 style = "margin-top: 20;">About</h2>
-        <p>I'm a UWaterloo CS student who's been working as a developer for 5 years and programming for 10. My many open source projects have over 20,000 combined users (300,000 if you count web apps). I'm particularly interested in computer vision, compilers, hardware and finance.</p>
-        <ul id="contact">
-          <li>tristan@thume.ca</li>
-          <li><a href="http://thume.ca">thume.ca</a></li>
-          <li><a href="https://github.com/trishume/">github.com/trishume</a></li>
-        </ul>
-        <h2 style = "margin-top: 0px;">More Projects</h2>
-        <p>
-        I've done a <em>lot</em> of side projects over the years, and there isn't enough room for all of them here.
-        I keep a list on <a href="http://thume.ca/">my website</a> and you can also look at
-        <a href="https://github.com/trishume">my Github profile</a> if you want to see more.
-        </p>
-        <h2 style = "margin-top: 0px;">Anecdotal Evidence</h2>
-        <p>
-        I can contribute at the level of an experienced full time employee: At Shopify I was one of two interns (out of hundreds in the past) to get a significant unsolicited raise to the pay level of a full time employee, as well as the board approving special stock options. The CEO also tried to convince me to join full time directly out of high school.
-        </p>
-        <h2 style = "margin-top: 0px;">Languages</h2>
-        <p>
-        Starting at 10,000+ lines of code written and descending to ~500 lines of code written, bolded if I've read at least one entire book about them:
-        </p>
-<!--         <p>
-        Ruby, C++, Javascript,
-        Objective-C, Java, Turing,
-        Go, Emacs Lisp, Racket, PHP, Python, D, Lua,
-        Haskell, Rust, Nim, Bash, Scala,
-        Haxe, Nix, Julia, Rust, Actionscript
-        </p> -->
-        <ol>
-        <li><b>Ruby</b></li>
-        <li><b>C++</b></li>
-        <li><b>Javascript</b></li>
-        <li><b>Objective-C</b></li>
-        <li><b>Java</b></li>
-        <li>Turing</li>
-        <li><b>Go</b></li>
-        <li>Emacs Lisp</li>
-        <li>Racket</li>
-        <li><b>PHP</b></li>
-        <li>Python</li>
-        <li><b>D</b></li>
-        <li>Lua</li>
-        <li><b>Haskell</b></li>
-        <li><b>Rust</b></li>
-        <li>Nim</li>
-        <li>Bash</li>
-        <li>Scala</li>
-        <li>Nix</li>
-        <li>Julia</li>
-        <li>Haxe</li>
-        <li>Actionscript</li>
-        </ol>
+        {% for section in site.data.sidebar %}
+        <div>
+          <h2>{{ section.title }}</h2>
+          {{ section.content | markdownify }}
+        </div>
+        {% endfor %}
       </div>
 
       <div class="main">

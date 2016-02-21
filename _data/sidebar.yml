@@ -1,0 +1,45 @@
+- title: About
+  content: |
+    I'm a UWaterloo CS student who's been working as a developer for 5 years and programming for 10. My many open source projects have over 20,000 combined users (300,000 if you count web apps). I'm particularly interested in computer vision, compilers, hardware and finance.
+
+    - tristan@thume.ca
+    - <a href="http://thume.ca">thume.ca</a>
+    - <a href="https://github.com/trishume/">github.com/trishume</a>
+- title: Reading
+  content: |
+    For the past 8 years I've spent around 2 hours per day on average reading about programming and tech.
+    I've read hundreds of academic papers (mostly on compilers, HCI, computer vision, and databases), tons of articles (largely from 5 years of [Hacker News](https://news.ycombinator.com/)), and many books. This means I know of thousands of techniques, libraries and tools that I can call upon when working on a task.
+# - title: More Projects
+#   content: |
+#     I've done a <em>lot</em> of side projects over the years, and there isn't enough room for all of them here.
+#     I keep a list on <a href="http://thume.ca/">my website</a> and you can also look at
+#     <a href="https://github.com/trishume">my Github profile</a> if you want to see more.
+- title: Anecdotal Evidence
+  content: |
+    I can contribute at the level of an experienced full time employee: At Shopify I was one of two interns (out of hundreds in the past) to get a significant unsolicited raise in the middle of my term to the pay level of a full time employee, as well as the board approving special stock options. The CEO also tried to convince me to join full time directly out of high school.
+- title: Languages
+  content: |
+    Starting at 10,000+ lines of code written and descending to ~500 lines of code written, bolded if I've read at least one entire book about them:
+
+    1. **Ruby**
+    1. **C++**
+    1. **Javascript**
+    1. **Objective-C**
+    1. **Java**
+    1. Turing
+    1. **Go**
+    1. Emacs Lisp
+    1. Racket
+    1. **PHP**
+    1. Python
+    1. **D**
+    1. Lua
+    1. **Haskell**
+    1. **Rust**
+    1. Nim
+    1. Bash
+    1. Scala
+    1. Nix
+    1. Julia
+    1. Haxe
+    1. Actionscript

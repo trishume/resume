@@ -16,7 +16,7 @@ jobs:
     desc: |
       - Earned the highest possible rating from my team lead on my co-op work term evaluation for being "one of the most prolific and valuable members of the team".
       - Helped develop <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">Shopify Shipping</a> in many ways including <a href="https://github.com/Shopify/active_shipping/graphs/contributors">maintaining ActiveShipping</a>, fixing production disruptions, and writing package tracking infrastructure.
-      - Owned the front-end and back-end development of the unified fulfillment and label purchase workflow now used by thousands of merchants every day. <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">(see video on this page)</a>
+      - Owned the front-end and back-end development of the <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">unified fulfillment and label purchase form</a> now used by thousands of merchants every day.
   - name: Shopify
     modifier: Stack Team
     link: https://www.shopify.com/
@@ -31,7 +31,7 @@ jobs:
     title: Developer Intern
     time: Summer 2013
     desc: |
-      - Worked on 10+ different Ruby on Rails projects. Implemented new features and responded to customer requests.
+      - Worked on over 10 different Ruby on Rails projects. Implemented new features and responded to customer requests.
       - Wrote a <a href="https://github.com/Shopify/liquid/pull/235">recursive descent parser</a> for <a href="https://github.com/shopify/liquid">Liquid</a> that replaces the regex based one and properly detects syntax errors.
   - name: The Eclipse Foundation
     link: https://eclipse.org/ide/
@@ -44,7 +44,7 @@ jobs:
     title: Student Software Developer
     time: Summer 2012
     desc: |
-      - Improved a data entry process by developing a tool with Ruby that automates most of the formerly manual work. The tool shortened a process that took <b>two weeks</b> of human effort to one that takes <strong>30 minutes</strong>.
+      - Automated a data entry process from two weeks of work down to 5 minutes in one afternoon of Ruby scripting.
       - Developed a time estimate, prototype and guide for making the Halogen system section 508 accessibility standards compliant.
 projects:
   - name: StashLine

@@ -26,6 +26,13 @@ abbr {
   text-align: right;
 }
 
+.sidebar div:first-child h2 {
+  margin-top: 20px;
+}
+.sidebar div h2 {
+  margin-top: 0px;
+}
+
 #bg ul#contact li:after {
   content: "\2022";
   margin: 0 12px;
