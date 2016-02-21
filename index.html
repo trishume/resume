@@ -1,270 +1,109 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+---
+---
+<html>
+  <head>
+    <title>
+      Tristan Hume - Resume
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Bitter:400italic,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,700' rel='stylesheet' type='text/css'>
+  </head>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-     <title>Tristan Hume - Resume</title>
-    <script type="text/javascript">
-        /*$(document).ready(function(){
-           $(".node > h2").toggle(function(){
-           $(this).parent().toggleClass("closed")
-            $(this).siblings("p,ul").show('slow');
-
-            //alert("hide")
-           },function(){
-            //alert("show")
-            $(this).parent().toggleClass("closed")
-             $(this).siblings("p,ul").hide('slow');
-           });
-         });*/
-    </script>
-     <style type="text/css">
-        * { margin: 0; padding: 0; }
-        body { font: 16px Helvetica, Sans-Serif; line-height: 24px;  }
-        .clear { clear: both; }
-        #page-wrap { width: 800px; margin: 40px auto 60px; }
-        #pic { float: right; margin: -30px 0 0 0; }
-        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
-        h1 small {font-size: 14px; letter-spacing:0px; color: grey; font-weight: normal;}
-        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
-        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
-        h2 small { font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal;}
-        p { margin: 0 0 16px 0; }
-
-        a:hover { border-bottom-style: solid; color: black; }
-        ul { margin: 0 0 18px 17px; }
-        #objective { width: 800px; float: left; }
-        #objective p { font-family: Georgia, Serif;  color: #666; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 80px; float: left; height: 50px;   }
-        dd.category { padding-left: 13px; width: 670px; float: right; border-left: 1px solid #999; min-height: 60px;}
-        dd.clear { float: none; margin: 0; height: 15px;}
-        .print {display: none}
-        #pic {display:none}
-      .no-print {display: none;}
-        @media screen {
-            a:hover { border-bottom-style: solid; color: black; }
-
-            a { color: #4B3DDF; text-decoration: none; border-bottom: 1px dotted #999; }
-
-            body {background: url(images/noise.jpg);}
-
-            h2.big { font-size: 26px; }
-
-            /*.node h2:before {padding-right: 5px; font-size: 15px;content: "\25BC";}
-            .node h2 {cursor: pointer;} */
-            /*.closed h2:before {content: "\25B6";}
-            .node > p,ul {display:none;}*/
-
-            .page-break  { display:none; }
-        }
-        @media print {
-            a { border-bottom-style: none; color: black; text-decoration: none;}
-            .print {display: block}
-            .screen {display: none}
-            .page-break  { display:block; page-break-before:always; }
-        }
-     </style>
-</head>
-
-<body>
-
-    <div id="page-wrap">
-
-        <img src="images/headshot.png" alt="Logo" width="200" id="pic" />
-
-        <div id="contact-info" class="vcard">
-
-            <!-- Microformats! -->
-
-            <h1 class="fn">Tristan Hume</h1>
-
-
-            <p>
-                Mobile Phone: <span class="tel">(613) 862-8776</span><br />
-                Email: <a class="email" href="mailto:tristan@thume.ca">tristan@thume.ca</a><br />
-                Website: <a href="/">http://thume.ca/</a><br />
-                Github: <a href="http://github.com/trishume">http://github.com/trishume</a>
-                <span class="print">Online Resume With Links: http://thume.ca/resume</span>
-            </p>
-        </div>
-
-        <div id="objective">
-            <p>
-                I am a Computer Science student at the University of Waterloo. I have 5 years of experience working at Shopify, The Eclipse Foundation, and Halogen Software, developing three iPad apps and starting open source projects with over 10,000 combined users. I'm particularly interested in computer vision, compilers, hardware and finance. My resume is focused on work experience, check out <a href="/">my website</a> to see all the things I've made for fun.
-            </p>
-        </div>
-
-        <div class="clear"></div>
-
-        <dl>
-
-            <dd class="clear"></dd>
-
-            <dt>Experience</dt>
-            <dd class="category">
-                <div class="node closed">
-                    <h2 class="big">UWaterloo HCI Lab <span>Undergrad Researcher, Winter 2016-present</span></h2>
-                    <ul>
-                        <li>Designed and developed a prototype hands-free mouse alternative using eye and head tracking that can compete with the mouse in both speed and accuracy.</li>
-                        <li>Created a recognizer for lip popping sounds with high accuracy and low latency. This combines with the previous technique by providing hands-free clicking.</li>
-                        <li>Read over one hundred papers detailing modern HCI techniques and experiments, as well as the implementation of computer vision based eye tracking methods.</li>
-                        <li>Note: This was written one month into working here. I will eventually perform an experiment to test pointing efficiency with other participants and write a paper.</li>
-                    </ul>
-                </div>
-                <div class="node closed">
-                    <h2 class="big">Shopify (Shipping Team) <span>Developer Intern, Summer 2015</span></h2>
-                    <ul>
-                        <li>Helped develop <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">Shopify Shipping</a> in many ways including <a href="https://github.com/Shopify/active_shipping/graphs/contributors">maintaining ActiveShipping</a>, fixing production disruptions, and writing package tracking infrastructure.</li>
-                        <li>Owned the front-end and back-end development of the unified fulfillment and label purchase workflow now used by thousands of merchants every day. <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">(see video on this page)</a></li>
-                        <li>Earned the highest possible rating from my team lead on my co-op work term report for being "one of the most prolific and valuable members of the team".</li>
-                    </ul>
-                </div>
-                <div class="node closed">
-                    <h2 class="big">Shopify (Stack Team) <span>Developer Intern, Summer 2014</span></h2>
-                    <ul>
-                        <li>Worked on infrastructure for containerized deployment of Shopify using Docker, Chef, Etcd and Go.</li>
-                        <li>Developed a tool that enables testing resiliency of web apps to external services like Redis being down. Uses iptables to block services and Go for logic and serving a web UI.</li>
-                    </ul>
-                </div>
-                <div class="node closed">
-                    <h2 class="big">Shopify (Apps Team)<span>Developer Intern, Summer 2013</span></h2>
-                    <ul>
-                        <li>Improved on 10+ different Ruby on Rails projects. Implemented new features and responded to customer requests.</li>
-                        <li>Wrote a <a href="https://github.com/Shopify/liquid/pull/235">recursive descent parser</a> for <a href="https://github.com/shopify/liquid">Liquid</a> that replaces the regex based one and properly detects syntax errors.</li>
-                    </ul>
-                </div>
-                <div class="node closed">
-                    <h2 class="big">The Eclipse Foundation <span>High-school Co-op Developer, Fall 2012</span></h2>
-                    <ul>
-                        <li>Submitted patches for many bugs including ones that have been around for eleven years and have affected hundreds of thousands of people.</li>
-                        <li>Contributed to many different projects including the DLTK Ruby IDE.</li>
-                    </ul>
-                </div>
-                <div class="node closed">
-                    <h2 class="big">Halogen Software <span>Student Software Developer, Summer 2012</span></h2>
-                    <ul>
-                        <li>
-                            Improved a data entry process by developing a tool with Ruby that automates most of the formerly manual work. The tool shortened a process that took <b>two weeks</b> of human effort to one that takes <strong>30 minutes</strong>.
-                        </li>
-                        <li>Won second place in the company's innovation awards with my automation tool while competing against
-                          long term employees who had much more time to work on their projects.</li>
-                        <li>Developed a time estimate, prototype and guide for making the Halogen system section 508 accessibility standards compliant.</li>
-                    </ul>
-                </div>
-                <!-- <div class="node closed no-print">
-                    <h2>Bell High School <span>Website co-maintainer / IT Representative  </span></h2>
-                    <ul>
-                        <li>I maintain and add content to the <a href="http://bellhs.net">Bell website (bellhs.net).</a> </li>
-                        <li>I programmed the <a href="http://bellhs.net/map">Bell map (bellhs.net/map).</a></li>
-                    </ul>
-                </div> -->
-
-                <div class="node closed no-print">
-                    <h2>Virtual Ventures <span>Volunteer and Attendee 2004-2011</span></h2>
-                    <ul>
-                        <li>Attended the Virtual Ventures computer camp every summer 2004-2010.</li>
-                        <li>Volunteered at the camp for 2 weeks during the summer of 2011.</li>
-                    </ul>
-                </div>
-
-
-                <div class="node closed no-print">
-                <h2>National Science Fair <span>Member of Team Ottawa 2010</span></h2>
-                <ul>
-                    <li>Won gold in Engineering and Computer Science and was selected to represent Ottawa at the National Science Fair in Peterborough.</li>
-                    <li>For my project I built an electroencephalograph (EEG) which is a device that measures brain waves.</li>
-                </ul></div>
-            </dd>
-            <dd class="clear"></dd>
-            <!-- <div class="page-break"></div> -->
-            <dt>Projects</dt>
-            <dd class="category">
-                <div class="node closed">
-                    <h2>Open Source Development <span>Github Enthusiast</span></h2>
-                    <ul>
-                        <li><a href="http://thume.ca/2015/03/30/wikipedia-link-graphs-and-terrible-hacks/">Processed the entire link graph of Wikipedia</a> into a dense binary format that can be efficiently searched for connections in memory and <a href="https://github.com/trishume/wikicrush">published the result for others to use</a>.</li>
-                        <li>Researched and implemented an open source webcam-based <a href="https://github.com/trishume/eyeLike">eye tracker</a> project that garners near-weekly emails from researchers worldwide asking questions.</li>
-                        <li>Wrote <a href="https://github.com/Open-Turing-Project/OpenTuringCompiler">a Turing compiler</a> using LLVM that is 10x faster than the standard interpreter.</li>
-                        <li>Contributed many layers and fixes to <a href="https://github.com/syl20bnr/spacemacs">the Spacemacs Emacs distribution</a>. I was the <a href="https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#first-times">First contributor</a> and a long-time top contributor.</li>
-                    </ul></div>
-                <div class="node closed">
-                    <h2 class="big">IOS Apps <span>Developer 2010 to present</span></h2>
-                    <ul>
-                        <li>Released <a href="http://thume.ca/stashline">StashLine</a> an IOS app for long term personal finance planning in 2014.</li>
-                        <li>Developed EstimationLine, an app for testing numerical judgement, to a Carleton University professor who was pleased with my previous work for her.</li>
-                        <li>Delivered <a href="http://hume.ca/ix">PathSpan</a> to the Carleton Psychology professor in 2010, an app for administering a common spatial memory test used by researchers, it was later released on the app store.</li>
-                    </ul>
-                </div>
-            </dd>
-            <dd class="clear"></dd>
-            <dt>Skills</dt>
-            <dd class="category">
-                <div class="node closed no-print">
-                <h2>Programming</h2>
-                <ul>
-                    <li>Skilled in many languages including Ruby, Javascript, Java, C++ and Objective-C.</li>
-                    <li>Created open source projects that have over 10,000 combined downloads and my blog about programming recieves over 7000 visitors per month.</li>
-                </ul>
-                </div>
-                <div class="node closed">
-                <h2>Hardware</h2>
-                <ul>
-                  <li>Built a working <a href="http://thume.ca/2014/09/08/creating-a-keyboard-1-hardware/">keyboard</a> I designed in Autocad and built with laser cut acrylic layers, Cherry MX switches and an ARM microcontroller.</li>
-                  <li>I've also built many other small hardware projects using laser cutters, microcontrollers, 3D printers, Digikey, and lots of soldering. An example is a weekend project to build a head tracking mouse using an IMU and a microcontroller.</li>
-                </ul>
-                </div>
-              <div class="node closed no-print">
-                <h2>Non-Technology related skills</h2>
-                <ul>
-                    <li>Interested in finance, investing, politics and economics.</li>
-                    <li>Can ride a bicycle without using my hands.</li>
-                    <li>I am a confident public speaker able to improvise presentations on demand.</li>
-                </ul>
-                </div>
-            </dd>
-<!--             <dd class="clear"></dd>
-            <dt>Awards</dt>
-            <dd class="category">
-              <h2>Ottawa AppJam <span>Winner 2012, 2013, 2014</span></h2>
-                <p>In 2014 I won with <a href="http://thume.ca/stashline">StashLine</a>. In 2013 I won with my
-                  <a href="https://github.com/Open-Turing-Project/OpenTuringCompiler">Turing Compiler</a>.
-                  In 2012 I won with <a href="http://hume.ca/ix">PathSpan</a>.
-                  The contest is run by The Ottawa Network For Education and entries were judged by a panel of industry judges. I won a combined
-                  $2750 in prize money from Halogen Software, CIRA, and Espial.
-                </p>
-                <h2>ECOO Programming Contest<span>Finalist 2012, 2013, 2014</span></h2>
-                <p>
-                  My team made it to the Ontario finals all three years and in 2014 I was the main programmer for
-                  a team that came first in eastern Ontario and later 5th overall. It is Ontario's largest team programming
-                  contest and it has 3 rounds and hundreds of competing teams.
-                </p>
-            </dd>
+  <!-- Remove class="print" to get a colour pdf -->
+  <body class="print">
+    <div id="bg">
+<!--       <div id = "buttons">
+        <a href = "kalraAresume.pdf"> PDF Version </a>
+        <a href = "reference.pdf"> Reference Letter </a>
+      </div>
  -->
-            <dd class="clear"></dd>
-
-            <dt>Education</dt>
-            <dd class="category">
-              <h2>University of Waterloo <br><small>Candidate for Bachelor of Computer Science, Waterloo, Ontario, September 2014-present</small></h2>
-              <p>Currently in my 2A term. Along with my core CS and math courses I've taken a variety of electives such as introductions to material science, political science and psychology.</p>
-            </dd>
-
-            <dd class="clear"></dd>
-
-            <!-- <div class="no-print">
-                <dt>References</dt>
-                <dd class="category">Available on request</dd>
-            </div> -->
-
-            <dd class="clear"></dd>
-        </dl>
-
-        <div class="clear"></div>
-
+      <div class="container header">
+        <h1><a href="http://thume.ca/">Tristan Hume</a></h1>
+        <h5>Student Developer - University of Waterloo Computer Science</h5>
+      </div>
     </div>
 
-</body>
+    <div class="container">
+      <div class="sidebar">
+        <h2 style = "margin-top: 20;">About</h2>
+        <p>I'm a UWaterloo CS student who's been working as a developer for 5 years and programming for 10. My many open source projects have over 20,000 combined users (300,000 if you count web apps). I'm particularly interested in computer vision, compilers, hardware and finance.</p>
+        <ul id="contact">
+          <li>tristan@thume.ca</li>
+          <li><a href="http://thume.ca">thume.ca</a></li>
+          <li><a href="https://github.com/trishume/">github.com/trishume</a></li>
+        </ul>
+        <h2 style = "margin-top: 0px;">More Projects</h2>
+        <p>
+        I've done a <em>lot</em> of side projects over the years, and there isn't enough room for all of them here.
+        I keep a list on <a href="http://thume.ca/">my website</a> and you can also look at
+        <a href="https://github.com/trishume">my Github profile</a> if you want to see more.
+        </p>
+        <h2 style = "margin-top: 0px;">Anecdotal Evidence</h2>
+        <p>
+        I can contribute at the level of an experienced full time employee: At Shopify I was one of two interns (out of hundreds in the past) to get a significant unsolicited raise to the pay level of a full time employee, as well as the board approving special stock options. The CEO also tried to convince me to join full time directly out of high school.
+        </p>
+        <h2 style = "margin-top: 0px;">Languages</h2>
+        <p>
+        Starting at 10,000+ lines of code written and descending to ~500 lines of code written, bolded if I've read at least one entire book about them:
+        </p>
+<!--         <p>
+        Ruby, C++, Javascript,
+        Objective-C, Java, Turing,
+        Go, Emacs Lisp, Racket, PHP, Python, D, Lua,
+        Haskell, Rust, Nim, Bash, Scala,
+        Haxe, Nix, Julia, Rust, Actionscript
+        </p> -->
+        <ol>
+        <li><b>Ruby</b></li>
+        <li><b>C++</b></li>
+        <li><b>Javascript</b></li>
+        <li><b>Objective-C</b></li>
+        <li><b>Java</b></li>
+        <li>Turing</li>
+        <li><b>Go</b></li>
+        <li>Emacs Lisp</li>
+        <li>Racket</li>
+        <li><b>PHP</b></li>
+        <li>Python</li>
+        <li><b>D</b></li>
+        <li>Lua</li>
+        <li><b>Haskell</b></li>
+        <li><b>Rust</b></li>
+        <li>Nim</li>
+        <li>Bash</li>
+        <li>Scala</li>
+        <li>Nix</li>
+        <li>Julia</li>
+        <li>Haxe</li>
+        <li>Actionscript</li>
+        </ol>
+      </div>
 
+      <div class="main">
+        <h2>Work</h2>
+        {% for job in site.data.resume.jobs %}
+        <div>
+          <div class="item-header">
+          <h3><a href="{{ job.link }}">{{ job.name }}{% if job.modifier %} ({{job.modifier}}){% endif %}</a></h3>
+          <span class="job-info">{{ job.title }}, {{ job.time }}</span>
+          </div>
+          {{ job.desc | markdownify }}
+        </div>
+        {% endfor %}
+        <h2 style = "margin-top: 10px">Projects</h2>
+
+        {% for proj in site.data.resume.projects %}
+        <div>
+          <div class="item-header">
+          <h3><a href="{{ proj.link }}">{{ proj.name }}{% if proj.modifier %} ({{proj.modifier}}){% endif %}</a></h3>
+          <span class="job-info">{{ proj.title }}</span>
+          </div>
+          {{ proj.desc | markdownify }}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </body>
 </html>

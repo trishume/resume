@@ -1,0 +1,97 @@
+jobs:
+  - name: UWaterloo HCI Lab
+    link: http://hci.cs.uwaterloo.ca/
+    title: Undergraduate Researcher
+    time: Winter 2016-present
+    desc: |
+      - Designed and developed a prototype hands-free mouse alternative using eye and head tracking that can compete with the mouse in both speed and accuracy.
+      - Created a recognizer for lip popping sounds with high accuracy and low latency. This combines with the previous technique by providing hands-free clicking.
+      - Read over one hundred papers detailing modern HCI techniques and experiments, as well as the implementation of computer vision based eye tracking methods.
+      - Note: More to come, this was written one month into working here.
+  - name: Shopify
+    modifier: Shipping Team
+    link: https://www.shopify.com/
+    title: Developer Intern
+    time: Summer 2015
+    desc: |
+      - Earned the highest possible rating from my team lead on my co-op work term evaluation for being "one of the most prolific and valuable members of the team".
+      - Helped develop <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">Shopify Shipping</a> in many ways including <a href="https://github.com/Shopify/active_shipping/graphs/contributors">maintaining ActiveShipping</a>, fixing production disruptions, and writing package tracking infrastructure.
+      - Owned the front-end and back-end development of the unified fulfillment and label purchase workflow now used by thousands of merchants every day. <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">(see video on this page)</a>
+  - name: Shopify
+    modifier: Stack Team
+    link: https://www.shopify.com/
+    title: Developer Intern
+    time: Summer 2014
+    desc: |
+      - Worked on infrastructure for containerized deployment of Shopify using Docker, Chef, Etcd and Go.
+      - Developed a tool that enables testing resiliency of web apps to external services like Redis being down. Uses iptables to block services and Go for logic and serving a web UI.
+  - name: Shopify
+    modifier: Apps Team
+    link: https://www.shopify.com/
+    title: Developer Intern
+    time: Summer 2013
+    desc: |
+      - Worked on 10+ different Ruby on Rails projects. Implemented new features and responded to customer requests.
+      - Wrote a <a href="https://github.com/Shopify/liquid/pull/235">recursive descent parser</a> for <a href="https://github.com/shopify/liquid">Liquid</a> that replaces the regex based one and properly detects syntax errors.
+  - name: The Eclipse Foundation
+    link: https://eclipse.org/ide/
+    title: High-school Co-op Developer
+    time: Fall 2012
+    desc: |
+      Submitted patches for many bugs including ones that have been around for eleven years and have affected hundreds of thousands of people.
+  - name: Halogen Software
+    link: http://www.halogensoftware.com/
+    title: Student Software Developer
+    time: Summer 2012
+    desc: |
+      - Improved a data entry process by developing a tool with Ruby that automates most of the formerly manual work. The tool shortened a process that took <b>two weeks</b> of human effort to one that takes <strong>30 minutes</strong>.
+      - Developed a time estimate, prototype and guide for making the Halogen system section 508 accessibility standards compliant.
+projects:
+  - name: StashLine
+    link: http://thume.ca/stashline/
+    title: Personal finance app
+    desc: |
+      An IOS app for long term personal finance planning and visualization with 7000 users.
+  - name: Rate With Science
+    link: http://thume.ca/2015/03/30/wikipedia-link-graphs-and-terrible-hacks/
+    title: Wikipedia data processing
+    desc: |
+      - A web app for quickly finding paths between two articles in the link graph of Wikipedia.
+      - I [extracted the link graph](https://github.com/trishume/wikicrush) of Wikipedia into a dense binary format that fits in memory enabling fast breadth first searching.
+      - Data processing done in Ruby, and I've rewritten the path-finding server in Rust, Nim and D to compare the languages.
+  - name: The Open Turing Compiler
+    title: LLVM front-end, IDE and library
+    link: https://github.com/trishume/OpenTuringCompiler
+    desc: |
+      An LLVM based compiler for [Turing](https://en.wikipedia.org/wiki/Turing_(programming_language)) as well as a Qt-based IDE and a OpenGL based simple drawing library.
+  - name: EyeLike
+    link: https://github.com/trishume/eyeLike
+    title: OpenCV pupil tracking implementation
+    desc: |
+      An implementation of a webcam pupil tracking algorithm in OpenCV and a [blog post](http://thume.ca/projects/2012/11/04/simple-accurate-eye-center-tracking-in-opencv/) that garners weekly emails from researchers and 30,000 views per year because it is the only good open source webcam pupil tracker.
+  - name: PolyType
+    link: http://thume.ca/2014/09/08/creating-a-keyboard-1-hardware/
+    title: Designed & built a keyboard
+    desc: |
+      I built a working keyboard I designed in Autocad and put together with laser cut acrylic layers, Cherry MX switches and an ARM microcontroller.
+  - name: IndexView
+    link: http://thume.ca/indexView/
+    title: JS canvas visualization
+    desc: |
+      An exploration tool for long term financial market data written in javascript with a custom canvas graph widget.
+  - name: Blog
+    link: http://thume.ca/archive.html
+    title: Useful Tech Articles
+    desc: |
+      I post useful posts on my blog ranging from [tutorials](http://thume.ca/howto/2015/03/07/configuring-spacemacs-a-tutorial/) to [reverse engineering stories](http://thume.ca/2016/02/02/a-reverse-engineering-adventure-eye-tribes-usb-protocol/). My various posts have garnered over 200,000 views.
+  - name: Spacemacs Layers
+    link: https://github.com/syl20bnr/spacemacs/commits?author=trishume&page=1
+    title: Heavy contributor of Emacs Lisp
+    desc: |
+      Contributed many layers and fixes to <a href="https://github.com/syl20bnr/spacemacs">the Spacemacs Emacs distribution</a>. I was the <a href="https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#first-times">First contributor</a> and a long-time top contributor.
+  - name: PathSpan & EstimationLine
+    link: http://hume.ca/ix/
+    title: iPad Apps for psychology research
+    desc: |
+      IOS apps developed in 2010 on contract for a professor at Carleton University for performing common psychological tests.
+
