@@ -4,11 +4,16 @@
 body {
   margin: 0;
   padding: 0;
+
   font-family: 'Open Sans', Helvetica, sans-serif;
-  font-size: 10pt;
+  font-size: 14px;
 }
 abbr {
   cursor: help;
+}
+
+.item {
+  margin-bottom: 10px;
 }
 
 .item-header {
@@ -20,16 +25,23 @@ abbr {
 
 .item-header h3 {
   margin-top: 0px;
+  margin-bottom: -10px;
 }
 
 .job-info {
   text-align: right;
+  // font-family: 'PT Sans', sans-serif;
 }
 
-.sidebar div:first-child h2 {
-  margin-top: 20px;
-}
 .sidebar div h2 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.sidebar p {
+  padding-top: 0px;
+}
+.sidebar h5 {
+  font-weight: bold;
   margin-top: 0px;
 }
 
@@ -104,8 +116,7 @@ abbr {
           order: 2;
 }
 ul {
-  margin:5px 0px;
-  font-size:15px;
+  margin:0px 0px;
   list-style-position: outside;
   margin-left:8px;
   padding-left:8px;
@@ -114,12 +125,11 @@ ul {
 li {
   margin-left:8px;
   margin-top:5px;
-  font-size: 15px;
   line-height: 1.5;
 }
 h1 {
   font-size:44px;
-  font-family: 'Bitter', Georgia, serif;
+  font-family: 'PT Sans Caption', sans-serif;
   font-weight:bold;
   margin: 15px 0 5px 0;
 }
@@ -128,24 +138,24 @@ h1 a {
   color: black;
 }
 h2 {
-  font-family: 'Bitter', serif;
+  font-family: 'PT Sans Caption', sans-serif;
   font-size:25px;
-  margin: 20px 0 5px 0;
+  margin: 10px 0 5px 0;
 }
 h3 {
-  font-family: 'Bitter', serif;
+  font-family: 'PT Sans Caption', sans-serif;
   font-size:20px;
   margin: 14px 0 0 0;
 }
 h4 {
-  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-family: 'PT Sans Caption', sans-serif;
   font-size: 15px;
   line-height:18px;
   margin: 25px 0 0 0;
   font-weight: normal;
 }
 h4#references {
-  font-family: 'Bitter', serif;
+  font-family: 'PT Sans Caption', sans-serif;
   font-size:20px;
   font-weight:normal;
 }
@@ -158,11 +168,10 @@ h5 {
 #bg h5 {
   font-style:normal;
   font-size: 14px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  font-family: 'PT Sans Caption', sans-serif;
 }
 p {
-  font-size: 15px;
-  line-height:17px;
   padding: 5px 0;
   margin:0 0 5px 0;
 }
@@ -261,6 +270,7 @@ h3 a:hover {
   }
   body {
     margin: 0;
+    font-size: 10pt;
   }
   #buttons {
     display:none;
@@ -269,62 +279,28 @@ h3 a:hover {
     font-size:38px;
     margin: 0;
   }
-  h2, h3, h4 {
-    page-break-after:avoid;
+  .item {
     page-break-inside: avoid;
-  }
-  ul {
-    page-break-inside: avoid;
-    page-break-before: avoid;
-    margin-bottom: 32px;
-  }
-  li {
-    page-break-inside: avoid;
-    page-break-before: avoid;
   }
   h2 {
     font-size: 20px;
-    margin: 22px 0 5px 0;
   }
   h3 {
     font-size: 15px;
-    margin: 1px 0 0 0;
   }
   h4 {
     font-size: 15px;
     line-height:16px;
-    margin-top:10px;
-    margin-bottom: 1px;
-  }
-  h4 a {
-    font-size: 16px;
   }
   a {
     font-weight:inherit;
-  }
-  p, li, .main h5 {
-    font-size:14px;
-    line-height:15px;
-    page-break-inside:avoid;
   }
 
   .container {
     width:auto;
   }
-  #bg h5 {
-    margin-bottom:10px;
-  }
-  .print h2 {
-    color: #44CAC1;
-  }
 
-  .print a{
-    color:#53AFC4;
-  }
-  .print h5 a{
-    color:#000;
-  }
-  .print li a {
+  .print .item-body a {
     color:#000 !important;
   }
   .print .container {

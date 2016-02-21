@@ -7,8 +7,8 @@
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link href='http://fonts.googleapis.com/css?family=Bitter:400italic,400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption|Open+Sans:300,300italic,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption|Open+Sans:700,400,400italic' rel='stylesheet' type='text/css'> -->
   </head>
 
   <!-- Remove class="print" to get a colour pdf -->
@@ -38,23 +38,27 @@
       <div class="main">
         <h2>Work</h2>
         {% for job in site.data.resume.jobs %}
-        <div>
+        <div class="item">
           <div class="item-header">
           <h3><a href="{{ job.link }}">{{ job.name }}{% if job.modifier %} ({{job.modifier}}){% endif %}</a></h3>
           <span class="job-info">{{ job.title }}, {{ job.time }}</span>
           </div>
+          <div class="item-body">
           {{ job.desc | markdownify }}
+          </div>
         </div>
         {% endfor %}
         <h2 style = "margin-top: 10px">Projects</h2>
 
         {% for proj in site.data.resume.projects %}
-        <div>
+        <div class="item">
           <div class="item-header">
           <h3><a href="{{ proj.link }}">{{ proj.name }}{% if proj.modifier %} ({{proj.modifier}}){% endif %}</a></h3>
           <span class="job-info">{{ proj.title }}</span>
           </div>
+          <div class="item-body">
           {{ proj.desc | markdownify }}
+          </div>
         </div>
         {% endfor %}
       </div>
