@@ -21,6 +21,7 @@ abbr {
 
 .item {
   margin-bottom: 17px;
+  position: relative;
 }
 
 .item-header {
@@ -36,9 +37,20 @@ abbr {
   margin-bottom: 0px;
 }
 
-.job-info {
+.item-info {
   text-align: right;
   // font-family: 'PT Sans', sans-serif;
+}
+
+.side-image {
+  position: absolute;
+  width: 100px;
+  left: -120px;
+  // top: 5px;
+}
+
+.side-image a {
+  float: right;
 }
 
 .sidebar div:first-child h2 {
@@ -252,6 +264,12 @@ h3 a:hover {
   width:55%;
 }
 
+@media all and (max-width: 980px) {
+  .side-image {
+    display: none;
+  }
+}
+
 @media all and (max-width: 880px) {
   .container {
     width:auto;
@@ -285,6 +303,9 @@ h3 a:hover {
 
 
 @media print {
+  .side-image {
+    display: none;
+  }
   * {
     position:relative;
   }

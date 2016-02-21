@@ -1,8 +1,10 @@
-jobs:
+Work:
   - name: UWaterloo HCI Lab
     link: http://hci.cs.uwaterloo.ca/
     title: Undergraduate Researcher
     time: Winter 2016-present
+    image: uwaterloo.png
+    image-height: 60
     desc: |
       - Designed and developed a prototype hands-free mouse alternative using eye and head tracking that can compete with the mouse in both speed and accuracy.
       - Created a recognizer for lip popping sounds with high accuracy and low latency. This combines with the previous technique by providing hands-free clicking.
@@ -13,6 +15,7 @@ jobs:
     link: https://www.shopify.com/
     title: Developer Intern
     time: Summer 2015
+    image: shopify.png
     desc: |
       - Earned the highest possible rating from my team lead on my co-op work term evaluation for being "one of the most prolific and valuable members of the team".
       - Helped develop <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">Shopify Shipping</a> in many ways including <a href="https://github.com/Shopify/active_shipping/graphs/contributors">maintaining ActiveShipping</a>, fixing production disruptions, and writing package tracking infrastructure.
@@ -22,6 +25,7 @@ jobs:
     link: https://www.shopify.com/
     title: Developer Intern
     time: Summer 2014
+    image: shopify.png
     desc: |
       - Worked on infrastructure for containerized deployment of Shopify using Docker, Chef, Etcd and Go.
       - Developed a tool that enables testing resiliency of web apps to external services like Redis being down. Uses iptables to block services and Go for logic and serving a web UI.
@@ -30,6 +34,7 @@ jobs:
     link: https://www.shopify.com/
     title: Developer Intern
     time: Summer 2013
+    image: shopify.png
     desc: |
       - Worked on over 10 different Ruby on Rails projects. Implemented new features and responded to customer requests.
       - Wrote a <a href="https://github.com/Shopify/liquid/pull/235">recursive descent parser</a> for <a href="https://github.com/shopify/liquid">Liquid</a> that replaces the regex based one and properly detects syntax errors.
@@ -37,24 +42,30 @@ jobs:
     link: https://eclipse.org/ide/
     title: High-school Co-op Developer
     time: Fall 2012
+    image: eclipse.png
     desc: |
       Submitted patches for many bugs including ones that have been around for eleven years and have affected hundreds of thousands of people.
   - name: Halogen Software
     link: http://www.halogensoftware.com/
     title: Student Software Developer
     time: Summer 2012
+    image: halogen.png
     desc: |
       - Automated a data entry process from two weeks of work down to 5 minutes in one afternoon of Ruby scripting.
       - Developed a time estimate, prototype and guide for making the Halogen system section 508 accessibility standards compliant.
-projects:
+Projects:
   - name: StashLine
     link: http://thume.ca/stashline/
     title: Personal finance app
+    image: stashline.png
+    image-height: 80
     desc: |
       An IOS app for long term personal finance planning and visualization with 7000 users.
   - name: Rate With Science
     link: http://thume.ca/2015/03/30/wikipedia-link-graphs-and-terrible-hacks/
     title: Wikipedia data processing
+    image: rws.png
+    image-height: 70
     desc: |
       - A web app for quickly finding paths between two articles in the link graph of Wikipedia.
       - I [extracted the link graph](https://github.com/trishume/wikicrush) of Wikipedia into a dense binary format that fits in memory enabling fast breadth first searching.
@@ -62,6 +73,8 @@ projects:
   - name: The Open Turing Compiler
     title: LLVM front-end, IDE and library
     link: https://github.com/trishume/OpenTuringCompiler
+    image: openturing.png
+    image-height: 80
     desc: |
       An LLVM based compiler for [Turing](https://en.wikipedia.org/wiki/Turing_(programming_language)) as well as a Qt-based IDE and a OpenGL based simple drawing library.
   - name: EyeLike
@@ -72,26 +85,36 @@ projects:
   - name: PolyType
     link: http://thume.ca/2014/09/08/creating-a-keyboard-1-hardware/
     title: Designed & built a keyboard
+    image: polytype.jpg
+    image-height: 60
     desc: |
       I built a working keyboard I designed in Autocad and put together with laser cut acrylic layers, Cherry MX switches and an ARM microcontroller.
   - name: IndexView
     link: http://thume.ca/indexView/
     title: JS canvas visualization
+    image: indexview.png
+    image-height: 60
     desc: |
       An exploration tool for long term financial market data written in javascript with a custom canvas graph widget.
   - name: Blog
     link: http://thume.ca/archive.html
     title: Useful Tech Articles
+    image: blog.png
+    image-height: 60
     desc: |
       I post useful posts on my blog ranging from [tutorials](http://thume.ca/howto/2015/03/07/configuring-spacemacs-a-tutorial/) to [reverse engineering stories](http://thume.ca/2016/02/02/a-reverse-engineering-adventure-eye-tribes-usb-protocol/). My various posts have garnered over 200,000 views.
   - name: Spacemacs Layers
     link: https://github.com/syl20bnr/spacemacs/commits?author=trishume&page=1
     title: Heavy contributor of Emacs Lisp
+    image: spacemacs.png
+    image-height: 60
     desc: |
       Contributed many layers and fixes to <a href="https://github.com/syl20bnr/spacemacs">the Spacemacs Emacs distribution</a>. I was the <a href="https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#first-times">First contributor</a> and a long-time top contributor.
   - name: PathSpan & EstimationLine
     link: http://hume.ca/ix/
     title: iPad Apps for psychology research
+    image: pathspan.png
+    image-height: 60
     desc: |
       IOS apps developed in 2010 on contract for a professor at Carleton University for performing common psychological tests.
 
