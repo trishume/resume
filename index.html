@@ -51,7 +51,7 @@
           <div class="item">
             {% if item.image %}
             <div class="side-image">
-              <a href="{{ item.link }}"><img src="images/fullsize/{{ item.image }}" height="{{ item.image-height | default: 30 }}" /></a>
+              <a {% unless item.image-no-pop %}class="image-pop"{% endunless %} href="{{ item.link }}"><img src="images/fullsize/{{ item.image }}" height="{{ item.image-height | default: 30 }}" /></a>
             </div>
             {% endif %}
             <div class="item-header">

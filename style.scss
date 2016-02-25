@@ -53,6 +53,16 @@ abbr {
   float: right;
 }
 
+.image-pop {
+  position: relative;
+  transition: all .2s ease-in-out;
+}
+
+.image-pop:hover {
+  z-index: 2;
+  transform: scale(3.0) translateX(33.3%);
+}
+
 .sidebar div:first-child h2 {
   margin-top: 10px;
 }

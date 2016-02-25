@@ -5,6 +5,7 @@ Work:
     time: Winter 2016-present
     image: uwaterloo.png
     image-height: 60
+    image-no-pop: true
     desc: |
       - Designed and developed a prototype hands-free mouse alternative using eye and head tracking that can compete with the mouse in both speed and accuracy.
       - Created a recognizer for lip popping sounds with high accuracy and low latency. This combines with the previous technique by providing hands-free clicking.
@@ -16,6 +17,7 @@ Work:
     title: Developer Intern
     time: Summer 2015
     image: shopify.png
+    image-no-pop: true
     desc: |
       - Earned the highest possible rating from my team lead on my co-op work term evaluation for being "one of the most prolific and valuable members of the team".
       - Helped develop <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">Shopify Shipping</a> in many ways including <a href="https://github.com/Shopify/active_shipping/graphs/contributors">maintaining ActiveShipping</a>, fixing production disruptions, and writing package tracking infrastructure.
@@ -26,6 +28,7 @@ Work:
     title: Developer Intern
     time: Summer 2014
     image: shopify.png
+    image-no-pop: true
     desc: |
       - Worked on infrastructure for containerized deployment of Shopify using Docker, Chef, Etcd and Go.
       - Developed a tool that enables testing resiliency of web apps to external services like Redis being down. Uses iptables to block services and Go for logic and serving a web UI.
@@ -35,6 +38,7 @@ Work:
     title: Developer Intern
     time: Summer 2013
     image: shopify.png
+    image-no-pop: true
     desc: |
       - Worked on over 10 different Ruby on Rails projects. Implemented new features and responded to customer requests.
       - Wrote a <a href="https://github.com/Shopify/liquid/pull/235">recursive descent parser</a> for <a href="https://github.com/shopify/liquid">Liquid</a> that replaces the regex based one and properly detects syntax errors.
@@ -43,6 +47,7 @@ Work:
     title: High-school Co-op Developer
     time: Fall 2012
     image: eclipse.png
+    image-no-pop: true
     desc: |
       Submitted patches for many bugs including ones that have been around for eleven years and have affected hundreds of thousands of people.
   - name: Halogen Software
@@ -50,6 +55,7 @@ Work:
     title: Student Software Developer
     time: Summer 2012
     image: halogen.png
+    image-no-pop: true
     desc: |
       - Automated a data entry process from two weeks of work down to 5 minutes in one afternoon of Ruby scripting.
       - Developed a time estimate, prototype and guide for making the Halogen system section 508 accessibility standards compliant.
