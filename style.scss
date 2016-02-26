@@ -54,13 +54,14 @@ abbr {
 }
 
 .image-pop {
+  z-index: 1;
   position: relative;
   transition: all .2s ease-in-out;
 }
 
 .image-pop:hover {
   z-index: 2;
-  transform: scale(3.0) translateX(33.3%);
+  transform: scale(4.0) translateX(30%);
 }
 
 .sidebar div:first-child h2 {
@@ -274,7 +275,7 @@ h3 a:hover {
   width:55%;
 }
 
-@media all and (max-width: 980px) {
+@media all and (max-width: 1100px) {
   .side-image {
     display: none;
   }
