@@ -59,12 +59,30 @@
               <span class="item-info">{{ item.title }}{% if item.time %}, {{ item.time }}{% endif %}</span>
             </div>
             <div class="item-body">
-              {{ item.desc | markdownify }}
+              {% if item.short-desc %}
+                <div id="desc-0-{{ forloop.index }}">
+                  {{ item.short-desc }}
+                  <a href="javascript:showMore(0, {{ forloop.index }})" class="more-link">
+                    Show more <i class="fa fa-caret-down"></i>
+                  </a>
+                </div>
+                <div id="desc-1-{{ forloop.index }}" class="hidden">
+                  {{ item.desc | markdownify }}
+                </div>
+              {% else %}
+                {{ item.desc | markdownify }}
+              {% endif %}
             </div>
           </div>
           {% endfor %}
         {% endfor %}
       </div>
     </div>
+    <script>
+      function showMore(level, index) {
+        document.getElementById("desc-"+level+"-"+index).classList.add("hidden");
+        document.getElementById("desc-"+(level+1)+"-"+index).classList.remove("hidden");
+      }
+    </script>
   </body>
 </html>

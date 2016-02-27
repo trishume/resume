@@ -8,9 +8,7 @@ Work:
     image-no-pop: true
     desc: |
       - Designed and developed a prototype hands-free mouse alternative using eye and head tracking that can compete with the mouse in both speed and accuracy.
-      - Created a recognizer for lip popping sounds with high accuracy and low latency. This combines with the previous technique by providing hands-free clicking.
-      - Read over one hundred papers detailing modern HCI techniques and experiments, as well as the implementation of computer vision based eye tracking methods.
-      - Note: More to come, this was written one month into working here.
+      - Developed high accuracy low-latency audio recognition algorithms for various mouth noises (i.e lip popping). This combines with the previous technique by providing hands-free clicking.
   - name: Shopify
     modifier: Shipping Team
     link: https://www.shopify.com/
@@ -29,6 +27,7 @@ Work:
     time: Summer 2014
     image: shopify.png
     image-no-pop: true
+    short-desc: Containerized deployment tools with Go, Docker and Chef.
     desc: |
       - Worked on infrastructure for containerized deployment of Shopify using Docker, Chef, Etcd and Go.
       - Developed a tool that enables testing resiliency of web apps to external services like Redis being down. Uses iptables to block services and Go for logic and serving a web UI.
@@ -39,6 +38,7 @@ Work:
     time: Summer 2013
     image: shopify.png
     image-no-pop: true
+    short-desc: Ruby on Rails development + Writing a user-friendly parser.
     desc: |
       - Worked on over 10 different Ruby on Rails projects. Implemented new features and responded to customer requests.
       - Wrote a <a href="https://github.com/Shopify/liquid/pull/235">recursive descent parser</a> for <a href="https://github.com/shopify/liquid">Liquid</a> that replaces the regex based one and properly detects syntax errors.
@@ -48,6 +48,7 @@ Work:
     time: Fall 2012
     image: eclipse.png
     image-no-pop: true
+    short-desc: Implementing features and fixing bugs in the Eclipse IDE.
     desc: |
       Submitted patches for many bugs including ones that have been around for eleven years and have affected hundreds of thousands of people.
   - name: Halogen Software
@@ -56,26 +57,25 @@ Work:
     time: Summer 2012
     image: halogen.png
     image-no-pop: true
+    short-desc: Web accessibility + automated a 2 week process to 5 minutes.
     desc: |
       - Automated a data entry process from two weeks of work down to 5 minutes in one afternoon of Ruby scripting.
       - Developed a time estimate, prototype and guide for making the Halogen system section 508 accessibility standards compliant.
 Projects:
-  - name: StashLine
-    link: http://thume.ca/stashline/
-    title: Personal finance app
-    image: stashline.png
-    image-height: 80
-    desc: |
-      An IOS app for long term personal finance planning and visualization with 7000 users.
   - name: Rate With Science
     link: http://thume.ca/2015/03/30/wikipedia-link-graphs-and-terrible-hacks/
     title: Wikipedia data processing
     image: rws.png
     image-height: 70
     desc: |
-      - A web app for quickly finding paths between two articles in the link graph of Wikipedia.
-      - I [extracted the link graph](https://github.com/trishume/wikicrush) of Wikipedia into a dense binary format that fits in memory enabling fast breadth first searching.
-      - Data processing done in Ruby, and I've rewritten the path-finding server in Rust, Nim and D to compare the languages.
+      I [extracted the link graph](https://github.com/trishume/wikicrush) of Wikipedia into a dense binary format that fits in memory enabling fast breadth first searching. Data processing done in Ruby, and I've rewritten the path-finding server in Rust, Nim and D to compare the languages.
+  - name: StashLine
+    link: http://thume.ca/stashline/
+    title: Personal finance app
+    image: stashline.png
+    image-height: 80
+    desc: |
+      An IOS app for long term personal finance simulation and visualization with 7000 users.
   - name: The Open Turing Compiler
     title: LLVM front-end, IDE and library
     link: https://github.com/trishume/OpenTuringCompiler
@@ -83,11 +83,6 @@ Projects:
     image-height: 80
     desc: |
       An LLVM based compiler for [Turing](https://en.wikipedia.org/wiki/Turing_(programming_language)) as well as a Qt-based IDE and a OpenGL based simple drawing library.
-  - name: EyeLike
-    link: https://github.com/trishume/eyeLike
-    title: OpenCV pupil tracking implementation
-    desc: |
-      An implementation of a webcam pupil tracking algorithm in OpenCV and a [blog post](http://thume.ca/projects/2012/11/04/simple-accurate-eye-center-tracking-in-opencv/) that garners weekly emails from researchers and 30,000 views per year because it is the only good open source webcam pupil tracker.
   - name: PolyType
     link: http://thume.ca/2014/09/08/creating-a-keyboard-1-hardware/
     title: Designed & built a keyboard
@@ -95,6 +90,13 @@ Projects:
     image-height: 60
     desc: |
       I built a working keyboard I designed in Autocad and put together with laser cut acrylic layers, Cherry MX switches and an ARM microcontroller.
+  - name: EyeLike
+    link: https://github.com/trishume/eyeLike
+    title: OpenCV pupil tracking implementation
+    image: eyelike.png
+    image-height: 60
+    desc: |
+      An implementation of a webcam pupil tracking algorithm in OpenCV and a [blog post](http://thume.ca/projects/2012/11/04/simple-accurate-eye-center-tracking-in-opencv/) that garners weekly emails from researchers and 30,000 views per year because it is the only good open source webcam pupil tracker.
   - name: IndexView
     link: http://thume.ca/indexView/
     title: JS canvas visualization
