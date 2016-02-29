@@ -125,4 +125,67 @@ Projects:
     image-height: 60
     desc: |
       IOS apps developed in 2010 on contract for a professor at Carleton University for performing common psychological tests.
-
+  - name: Electioneering
+    link: http://devpost.com/software/electioneering-the-game
+    title: Hack The North 2015
+    image: electioneering.png
+    image-height: 60
+    desc: |
+      Simulation of the Canadian electorate in the form of a game. I generated the map of 30,000 simulated citizens using real polling and demographic data.
+  - name: MacRanger
+    link: https://github.com/trishume/MacRanger
+    title: Forked file manager
+    image: macranger.png
+    image-height: 60
+    desc: |
+      A fork of [ranger](http://ranger.nongnu.org/) (a command line file manager) with support for inline images on OSX, file icons, drag and drop, OSX trash, and more enhancements.
+  - name: DoubleVision
+    link: https://github.com/trishume/doubleVision
+    title: PNG image trickery
+    image: doubleVision.png
+    image-height: 60
+    desc: |
+      A tool for generating PNG images that show one thing in thumbnails and a different thing in another. Exploits some PNG implementations implementing gamma correction and some not.
+  - name: KeySelect
+    link: https://github.com/trishume/KeySelect
+    title: Single evening project
+    image: keyselect.jpg
+    image-height: 60
+    desc: |
+      Select any text on screen with Vim keyboard navigation.
+      Uses computer vision on screenshots to locate text.
+  - name: Pro
+    link: https://github.com/trishume/pro
+    title: Git repo manager
+    image: pro.png
+    image-height: 40
+    desc: |
+      Finds Git repositories on your computer and lets you quickly switch to them, list them, and run commands on them.
+  - name: FaceHack
+    link: https://github.com/trishume/faceHack
+    title: TerribleHacks 2015
+    image: facehack.jpg
+    image-height: 60
+    desc: |
+      One day project that deforms your face on top of faces in videos. Face tracking in C++ with [DLib](http://dlib.net/) and UI in Javascript with WebGL. Made for [TerribleHack 2015](http://terriblehack.website/).
+  - name: Grade 11 Math Summative
+    link: http://thume.ca/2013/12/09/math-summative-program/
+    title: Drawing with functions
+    image: mathsummative.png
+    image-height: 80
+    desc: |
+      Python program to convert images to massive piecewise functions that show the image when plotted. Outputs images with matplotlib and giant LaTeX PDFs of the functions.
+  - name: ScreenTunes
+    link: http://thume.ca/screentunes/
+    title: Most popular project
+    image: screentunes.png
+    image-height: 60
+    desc: |
+      Two hour hack that made it to the front page of Reddit via [/r/InternetIsBeautiful](https://www.reddit.com/r/InternetIsBeautiful/). Makes some LCD screens emit a tone.
+  - name: Turing in Turing
+    link: http://tristan.hume.ca/tint/
+    title: Turing Interpreter
+    image: turinginturing.png
+    image-height: 60
+    desc: |
+      My grade 9 programming class (a grade 11 class, I took it in grade 9) final project: a Turing interpreter written in Turing, including a GUI.
