@@ -1,0 +1,29 @@
+<h2>{{ section[0] }}</h2>
+{% for item in section[1] %}
+<div class="item">
+  {% if item.image %}
+  <div class="side-image">
+    <a {% unless item.image-no-pop %}class="image-pop"{% endunless %} href="{{ item.link }}"><img src="images/fullsize/{{ item.image }}" height="{{ item.image-height | default: 30 }}" /></a>
+  </div>
+  {% endif %}
+  <div class="item-header">
+    <h3><a href="{{ item.link }}">{{ item.name }}{% if item.modifier %} ({{item.modifier}}){% endif %}</a></h3>
+    <span class="item-info">{{ item.title }}{% if item.time %}, {{ item.time }}{% endif %}</span>
+  </div>
+  <div class="item-body">
+    {% if item.short-desc %}
+      <div id="desc-0-{{ forloop.index }}">
+        {{ item.short-desc }}
+        <a href="javascript:showMore(0, {{ forloop.index }})" class="more-link">
+          Show more <i class="fa fa-caret-down"></i>
+        </a>
+      </div>
+      <div id="desc-1-{{ forloop.index }}" class="hidden">
+        {{ item.desc | markdownify }}
+      </div>
+    {% else %}
+      {{ item.desc | markdownify }}
+    {% endif %}
+  </div>
+</div>
+{% endfor %}

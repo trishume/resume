@@ -142,7 +142,7 @@ Projects:
   - name: DoubleVision
     link: https://github.com/trishume/doubleVision
     title: PNG image trickery
-    image: doubleVision.png
+    image: doublevision.png
     image-height: 60
     desc: |
       A tool for generating PNG images that show one thing in thumbnails and a different thing in another. Exploits some PNG implementations implementing gamma correction and some not.
