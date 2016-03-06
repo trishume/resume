@@ -1,11 +1,29 @@
 ---
 layout: "default"
 ---
-{% assign sidebar = site.data.sidebar.onepage %}
-{% include sidebar.html %}
-
-<div class="main">
-  {% for section in site.data.resume %}
-    {% include section.html %}
-  {% endfor %}
+{% assign firstprojects = 5 %}
+<div class="container">
+  {% assign sidebar = site.data.sidebar.onepage %}
+  {% include sidebar.html %}
+  <div class="main">
+    {% for section in site.data.resume %}
+      {% if section[0] == 'Projects' %}
+        <h2>Selected Projects</h2>
+        {% assign projects = section[1] | slice: 0, firstprojects %}
+        {% assign imagewidth = 60 %}
+        {% include rightprojects.html %}
+      {% else %}
+        {% include section.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+<div class="container">
+  <div class="main">
+    <h2 style="margin: 0px;">More Projects</h2>
+    {% assign imagewidth = 80 %}
+    {% assign projects = site.data.resume['Projects'] | slice: firstprojects, 100 %}
+    {% include rightprojects.html %}
+    <p>And more you can see on <a href="http://thume.ca/">http://thume.ca/</a> and on my <a href="//github.com/trishume">Github profile</a></p>
+  </div>
 </div>

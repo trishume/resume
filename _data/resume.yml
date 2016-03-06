@@ -90,13 +90,6 @@ Projects:
     image-height: 60
     desc: |
       I built a working keyboard I designed in Autocad and put together with laser cut acrylic layers, Cherry MX switches and an ARM microcontroller.
-  - name: EyeLike
-    link: https://github.com/trishume/eyeLike
-    title: OpenCV pupil tracking implementation
-    image: eyelike.png
-    image-height: 60
-    desc: |
-      An implementation of a webcam pupil tracking algorithm in OpenCV and a [blog post](http://thume.ca/projects/2012/11/04/simple-accurate-eye-center-tracking-in-opencv/) that garners weekly emails from researchers and 30,000 views per year because it is the only good open source webcam pupil tracker.
   - name: IndexView
     link: http://thume.ca/indexView/
     title: JS canvas visualization
@@ -104,6 +97,13 @@ Projects:
     image-height: 60
     desc: |
       An exploration tool for long term financial market data written in javascript with a custom canvas graph widget.
+  - name: EyeLike
+    link: https://github.com/trishume/eyeLike
+    title: OpenCV pupil tracking implementation
+    image: eyelike.png
+    image-height: 60
+    desc: |
+      An implementation of a webcam pupil tracking algorithm in OpenCV and a [blog post](http://thume.ca/projects/2012/11/04/simple-accurate-eye-center-tracking-in-opencv/) that garners weekly emails from researchers and 30,000 views per year because it is the only good open source webcam pupil tracker.
   - name: Blog
     link: http://thume.ca/archive.html
     title: Useful Tech Articles
@@ -171,17 +171,24 @@ Projects:
   - name: Grade 11 Math Summative
     link: http://thume.ca/2013/12/09/math-summative-program/
     title: Drawing with functions
-    image: mathsummative.png
+    image: mathsummative2.png
     image-height: 80
     desc: |
       Python program to convert images to massive piecewise functions that show the image when plotted. Outputs images with matplotlib and giant LaTeX PDFs of the functions.
+  - name: Bitty Chess
+    link: https://www.student.cs.uwaterloo.ca/~cs246/
+    title: CS256 Final project
+    image: bittychess.png
+    image-height: 60
+    desc: |
+      My CS 246 final assignment: A chess engine with all rules, graphics, 5 levels of A.I and human players implemented in 15 hours and 993 lines of code. This is half the lines of code and less than half the time most of my classmates needed. The code is quite readable, the small size was achieved through clever abstraction.
   - name: ScreenTunes
     link: http://thume.ca/screentunes/
     title: Most popular project
     image: screentunes.png
     image-height: 60
     desc: |
-      Two hour hack that made it to the front page of Reddit via [/r/InternetIsBeautiful](https://www.reddit.com/r/InternetIsBeautiful/). Makes some LCD screens emit a tone.
+      Two hour hack with JS Canvas that made it to the front page of Reddit via [/r/InternetIsBeautiful](https://www.reddit.com/r/InternetIsBeautiful/). It makes some LCD screens emit a tone.
   - name: Turing in Turing
     link: http://tristan.hume.ca/tint/
     title: Turing Interpreter

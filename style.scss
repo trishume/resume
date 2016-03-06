@@ -69,6 +69,16 @@ abbr {
   transform: scale(4.0) translateX(30%);
 }
 
+.right-image-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-image {
+  padding-left: 5px;
+}
+
 .sidebar div:first-child h2 {
   margin-top: 10px;
 }
@@ -356,6 +366,11 @@ h3 a:hover {
   }
   a {
     font-weight:inherit;
+    color:#000 !important;
+  }
+
+  h3 a {
+    color: #53AFC4 !important;
   }
 
   .container {
@@ -366,9 +381,6 @@ h3 a:hover {
     margin-top: 0px;
   }
 
-  .print .item-body a {
-    color:#000 !important;
-  }
   .print .container {
     padding: 5px 10mm;
     margin: 0 auto;

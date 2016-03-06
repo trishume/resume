@@ -1,11 +1,13 @@
 ---
 layout: "default"
 ---
-{% assign sidebar = site.data.sidebar.main %}
-{% include sidebar.html %}
+<div class="container">
+  {% assign sidebar = site.data.sidebar.main %}
+  {% include sidebar.html %}
 
-<div class="main">
-  {% for section in site.data.resume %}
-    {% include section.html %}
-  {% endfor %}
+  <div class="main">
+    {% for section in site.data.resume %}
+      {% include section.html %}
+    {% endfor %}
+  </div>
 </div>

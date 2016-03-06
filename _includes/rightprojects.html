@@ -1,0 +1,17 @@
+{% for item in projects %}
+<div class="item right-image-item">
+  <div>
+    <div class="item-header">
+      <h3><a href="{{ item.link }}">{{ item.name }}</a></h3>
+    </div>
+    <div class="item-body">
+      {{ item.desc | markdownify }}
+    </div>
+  </div>
+  {% if item.image %}
+    <div class="right-image">
+      <a {% unless item.image-no-pop %}class="image-pop"{% endunless %} href="{{ item.link }}"><img src="images/fullsize/{{ item.image }}" width="{{ imagewidth }}" /></a>
+    </div>
+  {% endif %}
+</div>
+{% endfor %}
