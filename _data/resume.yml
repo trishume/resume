@@ -7,7 +7,7 @@ Work:
     image-height: 60
     image-no-pop: true
     desc: |
-      - Designed and developed a prototype hands-free mouse alternative using eye and head tracking that can compete with the mouse in both speed and accuracy.
+      - Designed and developed a hands-free mouse alternative using eye and head tracking that is competitive with the mouse in speed and accuracy.
       - Developed high accuracy low-latency audio recognition algorithms for various mouth noises (i.e lip popping). This combines with the previous technique by providing hands-free clicking.
   - name: Shopify
     modifier: Shipping Team
@@ -17,8 +17,8 @@ Work:
     image: shopify.png
     image-no-pop: true
     desc: |
-      - Earned the highest possible rating from my team lead on my co-op work term evaluation for being "one of the most prolific and valuable members of the team".
-      - Helped develop <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">Shopify Shipping</a> in many ways including <a href="https://github.com/Shopify/active_shipping/graphs/contributors">maintaining ActiveShipping</a>, fixing production disruptions, and writing package tracking infrastructure.
+      - Earned the best possible rating on my work term evaluation for being "one of the most prolific and valuable members of the team".
+      - Helped develop <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">Shopify Shipping</a>. I <a href="https://github.com/Shopify/active_shipping/graphs/contributors">maintained ActiveShipping</a>, fixed production disruptions, and implemented package tracking.
       - Owned the front-end and back-end development of the <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">unified fulfillment and label purchase form</a> now used by thousands of merchants every day.
   - name: Shopify
     modifier: Stack Team
