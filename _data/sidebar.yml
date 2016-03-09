@@ -15,8 +15,6 @@ main:
   - &languages
     title: Languages Used
     content: |
-      I enjoy learning new languages so I've used a lot of them:
-
       ##### 10,000+ lines written
       Ruby, C++, Javascript
 
@@ -39,9 +37,7 @@ extra:
   - &moreproj
     title: More Projects
     content: |
-      I've done a <em>lot</em> of side projects over the years, and there isn't enough room for all of them here.
-      I keep a list on <a href="http://thume.ca/">my website</a> and you can also look at
-      <a href="https://github.com/trishume">my Github profile</a> if you want to see more.
+      For more detail, especially on projects, visit <http://thume.ca/resume> or my [Github profile](//github.com/trishume).
   - &screenshots
     title: Pictures of Projects
     content: |
@@ -52,9 +48,16 @@ extra:
       <img src="images/fullsize/indexview.png" height="30" />
       <img src="images/fullsize/electioneering.png" height="30" />
       <img src="images/fullsize/macranger.png" height="30" />
+pdf:
+  - *about
+  - *reading
+  # - *screenshots
+  - *anecdote
+  - *languages
 onepage:
   - *about
   - *reading
   # - *screenshots
   - *anecdote
   - *languages
+  - *moreproj

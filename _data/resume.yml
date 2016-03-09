@@ -104,27 +104,6 @@ Projects:
     image-height: 60
     desc: |
       An implementation of a webcam pupil tracking algorithm in OpenCV that garners weekly emails from researchers and 30,000 views per year. It is the first hit on Google for "OpenCV eye tracking".
-  - name: Blog
-    link: http://thume.ca/archive.html
-    title: Useful Tech Articles
-    image: blog.png
-    image-height: 60
-    desc: |
-      I post useful posts on my blog ranging from [tutorials](http://thume.ca/howto/2015/03/07/configuring-spacemacs-a-tutorial/) to [reverse engineering stories](http://thume.ca/2016/02/02/a-reverse-engineering-adventure-eye-tribes-usb-protocol/). My various posts have garnered over 200,000 views.
-  - name: Spacemacs Layers
-    link: https://github.com/syl20bnr/spacemacs/commits?author=trishume&page=1
-    title: Heavy contributor of Emacs Lisp
-    image: spacemacs.png
-    image-height: 60
-    desc: |
-      Contributed many layers and fixes to <a href="https://github.com/syl20bnr/spacemacs">the Spacemacs Emacs distribution</a>. I was the <a href="https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#first-times">First contributor</a> and a long-time top contributor.
-  - name: PathSpan & EstimationLine
-    link: http://hume.ca/ix/
-    title: iPad Apps for psychology research
-    image: pathspan.png
-    image-height: 60
-    desc: |
-      IOS apps developed in 2010 on contract for a professor at Carleton University for performing common psychological tests.
   - name: Electioneering
     link: http://devpost.com/software/electioneering-the-game
     title: Hack The North 2015
@@ -132,6 +111,27 @@ Projects:
     image-height: 60
     desc: |
       Simulation of the Canadian electorate in the form of a game. I generated the map of 30,000 simulated citizens using real polling and demographic data.
+  - name: Spacemacs Layers
+    link: https://github.com/syl20bnr/spacemacs/commits?author=trishume&page=1
+    title: Heavy contributor of Emacs Lisp
+    image: spacemacs.png
+    image-height: 60
+    desc: |
+      Contributed many layers and fixes to <a href="https://github.com/syl20bnr/spacemacs">the Spacemacs Emacs distribution</a>. I was the <a href="https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#first-times">First contributor</a> and a long-time top contributor.
+  - name: Blog
+    link: http://thume.ca/archive.html
+    title: Useful Tech Articles
+    image: blog.png
+    image-height: 60
+    desc: |
+      I post useful posts on my blog ranging from [tutorials](http://thume.ca/howto/2015/03/07/configuring-spacemacs-a-tutorial/) to [reverse engineering stories](http://thume.ca/2016/02/02/a-reverse-engineering-adventure-eye-tribes-usb-protocol/). My various posts have garnered over 200,000 views.
+  - name: PathSpan & EstimationLine
+    link: http://hume.ca/ix/
+    title: iPad Apps for psychology research
+    image: pathspan.png
+    image-height: 60
+    desc: |
+      IOS apps developed in 2010 on contract for a professor at Carleton University for performing common psychological tests.
   - name: MacRanger
     link: https://github.com/trishume/MacRanger
     title: Forked file manager
