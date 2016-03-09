@@ -73,14 +73,14 @@ Projects:
     link: http://thume.ca/stashline/
     title: Personal finance app
     image: stashline.png
-    image-height: 80
+    image-height: 70
     desc: |
       An IOS app for long term personal finance simulation and visualization with 7000 users.
   - name: The Open Turing Compiler
     title: LLVM front-end, IDE and library
     link: https://github.com/trishume/OpenTuringCompiler
     image: openturing.png
-    image-height: 80
+    image-height: 70
     desc: |
       An LLVM based compiler for [Turing](https://en.wikipedia.org/wiki/Turing_(programming_language)) as well as a Qt-based IDE and a OpenGL based simple drawing library.
   - name: PolyType
@@ -103,7 +103,7 @@ Projects:
     image: eyelike.png
     image-height: 60
     desc: |
-      An implementation of a webcam pupil tracking algorithm in OpenCV and a [blog post](http://thume.ca/projects/2012/11/04/simple-accurate-eye-center-tracking-in-opencv/) that garners weekly emails from researchers and 30,000 views per year because it is the only good open source webcam pupil tracker.
+      An implementation of a webcam pupil tracking algorithm in OpenCV that garners weekly emails from researchers and 30,000 views per year. It is the first hit on Google for "OpenCV eye tracking".
   - name: Blog
     link: http://thume.ca/archive.html
     title: Useful Tech Articles
@@ -160,7 +160,7 @@ Projects:
     image: pro.png
     image-height: 40
     desc: |
-      Finds Git repositories on your computer and lets you quickly switch to them, list them, and run commands on them.
+      Finds Git repositories on your computer and lets you quickly switch to them, list them, and run commands on them. A small project, but a useful one with thousands of users.
   - name: FaceHack
     link: https://github.com/trishume/faceHack
     title: TerribleHacks 2015
