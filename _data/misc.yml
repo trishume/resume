@@ -1,11 +1,11 @@
 ---
 projblurb: |
-  - [Crushing](https://github.com/trishume/wikicrush) the Wikipedia link graph into a 600MB binary file for [fast path finding in memory](https://github.com/trishume/ratewithscience).
+  - [Crushing the Wikipedia link graph](https://github.com/trishume/wikicrush) into a 600MB binary file for [fast path finding in memory](https://github.com/trishume/ratewithscience).
   - [An IOS app](http://thume.ca/stashline) for long term personal finance simulation and visualization with 7000 users.
-  - An LLVM based [compiler](https://github.com/trishume/OpenTuringCompiler), an IDE with Qt and a standard library.
-  - Designing, Assembling, Soldering and programming [my keyboard](http://thume.ca/2014/09/08/creating-a-keyboard-1-hardware/).
+  - An LLVM-based [compiler](https://github.com/trishume/OpenTuringCompiler) and Qt-based IDE for [Turing](https://en.wikipedia.org/wiki/Turing_(programming_language)).
+  - Designing, assembling, wiring and programming [my keyboard](http://thume.ca/2014/09/08/creating-a-keyboard-1-hardware/).
   - [An implementation](https://github.com/trishume/eyeLike) of a webcam pupil tracking algorithm in OpenCV that garners weekly emails from researchers.
   - Being the [first contributor](https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#first-times) and long time top contributor to <a href="https://github.com/syl20bnr/spacemacs">Spacemacs</a>. I contributed many of the first layers and fixes.
 
-  Plus a financial data exploration web app, [a blog](http://thume.ca/archive.html), an [election game](http://devpost.com/software/electioneering-the-game), [2 other IOS apps](http://hume.ca/ix/), a [git repo manager](https://github.com/trishume/pro), a [face replacement hack](https://github.com/trishume/faceHack), a chess engine, a [converter](http://thume.ca/2013/12/09/math-summative-program/) from PNGs to mathematical functions for graphing, a [project](http://thume.ca/screentunes/) which made the Reddit frontpage, a [Turing interpreter](http://tristan.hume.ca/tint/) in Turing and many more...
+  Plus a financial data exploration web app, [a blog](http://thume.ca/archive.html), an [election game](http://devpost.com/software/electioneering-the-game), [two other IOS apps](http://hume.ca/ix/), a [git repo manager](https://github.com/trishume/pro), a chess engine, a [converter](http://thume.ca/2013/12/09/math-summative-program/) from PNGs to mathematical functions for graphing, a [project](http://thume.ca/screentunes/) which made the Reddit frontpage, a [face tracking hack](https://github.com/trishume/faceHack), a [Turing interpreter in Turing](http://tristan.hume.ca/tint/) and many more...
 
