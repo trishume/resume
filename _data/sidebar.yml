@@ -1,36 +1,22 @@
-main:
+main: &mainlist
   - &about
     title: About
     content: |
-      I'm a UWaterloo CS student who's been working as a developer for 5 years and programming for 10. I'm particularly interested in computer vision, compilers, and finance. My many open source projects have over 20,000 combined users (300,000 if you count web apps).
-  - &reading
-    title: Reading
-    content: |
-      For the past 8 years I've spent on average 2 hours per day reading about programming and technology. That adds up to 3 times the number of lecture hours in a CS degree.
-      I've read hundreds of academic papers (mostly on HCI, compilers, computer vision, and databases), thousands of articles (largely from 5 years of [Hacker News](https://news.ycombinator.com/)), and dozens of programming books.
-  - &anecdote
-    title: Anecdotal Evidence
-    content: |
-      At Shopify I was one of two interns (out of hundreds in the past) to get a significant unsolicited raise to the pay level of a full time employee, as well as stock options, in the middle of my co-op term.
+      I’m a highly passionate developer who has spent the last 10 years building dozens in projects using a myriad of languages and technologies. I’m also building a solid academic groundwork through my studies as a CS student, research work, and spending lots of my spare time reading.
   - &languages
     title: Languages Used
     content: |
-      I love trying new language so I've used a lot of them:
+      My strongest languages are Ruby, C++ and Javascript.
+      Each of which I've written over 10,000 lines of code in.
 
-      ##### 10,000+ lines written
-      Ruby, C++, Javascript
+      I also enjoy learning new languages, I've done projects in 22
+      different languages including Haskell, Rust, D, Go, and Scala.
+  - &opensource
+    title: Open Source
+    content: |
+      I've created dozens of open source projects with over 20,000 combined users (300,000 if you count web apps), all of which you can find [on my Github page](//github.com/trishume).
 
-      ##### 5,000-10,000 lines
-      Objective-C, Java, Turing, HTML, CSS, PHP
-
-      ##### 1,000-5,000 lines
-      Go, Emacs Lisp, Racket, Python, D, Lua
-
-      ##### 500-1,000 lines
-      Haskell, Rust, Nim, Bash, Scala
-
-      ##### 250-500 lines
-      Nix, Julia, Haxe, Actionscript
+      I was also the [first contributor](https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#first-times) and [long time](https://github.com/syl20bnr/spacemacs/commits?author=trishume&page=1) top contributor to [Spacemacs](https://github.com/syl20bnr/spacemacs), a now quite popular configuration package for Emacs.
 extra:
   - &skills
     title: Skills
@@ -50,16 +36,44 @@ extra:
       <img src="images/fullsize/indexview.png" height="30" />
       <img src="images/fullsize/electioneering.png" height="30" />
       <img src="images/fullsize/macranger.png" height="30" />
-pdf:
-  - *about
-  - *reading
+  - &languageslong
+    title: Languages Used
+    content: |
+      I love trying new language so I've used a lot of them:
+
+      ##### 10,000+ lines written
+      Ruby, C++, Javascript
+
+      ##### 5,000-10,000 lines
+      Objective-C, Java, Turing, HTML, CSS, PHP
+
+      ##### 1,000-5,000 lines
+      Go, Emacs Lisp, Racket, Python, D, Lua
+
+      ##### 500-1,000 lines
+      Haskell, Rust, Nim, Bash, Scala
+
+      ##### 250-500 lines
+      Nix, Julia, Haxe, Actionscript
+  - &reading
+    title: Reading
+    content: |
+      For the past 8 years I've spent on average 2 hours per day reading about programming and technology. That adds up to 3 times the number of lecture hours in a CS degree.
+      I've read hundreds of academic papers (mostly on HCI, compilers, computer vision, and databases), thousands of articles (largely from 5 years of [Hacker News](https://news.ycombinator.com/)), and dozens of programming books.
+  - &anecdote
+    title: Anecdotal Evidence
+    content: |
+      At Shopify I was one of two interns (out of hundreds in the past) to get a significant unsolicited raise to the pay level of a full time employee, as well as stock options, in the middle of my co-op term.
+pdf: *mainlist
+  # - *about
+  # - *reading
   # - *screenshots
-  - *anecdote
-  - *languages
-onepage:
-  - *about
-  - *reading
+  # - *anecdote
+  # - *languages
+onepage: *mainlist
+  # - *about
+  # - *reading
   # - *screenshots
-  - *anecdote
-  - *languages
+  # - *anecdote
+  # - *languages
   # - *moreproj

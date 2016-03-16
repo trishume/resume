@@ -1,6 +1,7 @@
 ---
 layout: "default"
 ---
+{% assign firstprojects = 5 %}
 <div class="container">
   {% assign sidebar = site.data.sidebar.onepage %}
   {% include sidebar.html %}
@@ -10,18 +11,19 @@ layout: "default"
         {% include section.html %}
       {% endif %}
     {% endfor %}
-    <h2>Projects</h2>
-    <div class="item right-image-item">
-      <div class="item-body">
-        {{ site.data.misc.projblurb | markdownify }}
-      </div>
-      <div class="right-image">
-        {% assign projects = site.data.resume["Projects"] | slice: 0, 8 %}
-        {% for item in projects %}
-          <a href="{{ item.link }}"><img src="images/fullsize/{{ item.image }}" width="60" /></a>
-          <br>
-        {% endfor %}
-      </div>
-    </div>
+  </div>
+</div>
+<div class="container right-image-item">
+  <div class="main">
+    <h2 style="margin: 0px;">Selected Projects</h2>
+    {% assign imagewidth = 80 %}
+    {% assign sectioncontent = site.data.resume['Projects'] | slice: 0, firstprojects %}
+    {% include plainsection.html %}
+  </div>
+  <div class="right-image">
+    <img src="images/fullsize/stashline.png" width="120" /><br>
+    <img src="images/fullsize/openturing.png" width="120" /><br>
+    <img src="images/fullsize/polytype.jpg" width="120" /><br>
+    <img src="images/fullsize/indexview.png" width="120" /><br>
   </div>
 </div>

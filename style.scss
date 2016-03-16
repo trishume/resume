@@ -77,6 +77,10 @@ abbr {
 
 .right-image {
   padding-left: 5px;
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
 }
 
 .sidebar div:first-child h2 {
