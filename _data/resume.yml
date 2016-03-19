@@ -69,7 +69,7 @@ Projects:
     image: rws.png
     image-height: 70
     desc: |
-      I [extracted the link graph](https://github.com/trishume/wikicrush) of Wikipedia into a 600MB binary file with a custom format designed for [fast path finding in memory](https://github.com/trishume/ratewithscience). I've rewritten the path-finding server in Rust, Nim and D to compare languages.
+      I [extracted the link graph](https://github.com/trishume/wikicrush) of Wikipedia into a 600MB binary file with a custom format designed for [fast path finding in memory](https://github.com/trishume/ratewithscience). I've rewritten the path-finding server in Rust, Nim and D for fun.
   - name: StashLine
     link: http://thume.ca/stashline/
     title: Personal finance app
