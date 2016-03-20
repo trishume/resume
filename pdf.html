@@ -1,7 +1,7 @@
 ---
 layout: "default"
 ---
-{% assign firstprojects = 5 %}
+{% assign firstprojects = 4 %}
 <div class="container">
   {% assign sidebar = site.data.sidebar.pdf %}
   {% include sidebar.html %}
@@ -19,9 +19,9 @@ layout: "default"
   </div>
 </div>
 <div class="container">
-  <div class="main">
+  <div class="main try-no-break">
     <h2 style="margin: 0px;">More Projects</h2>
-    {% assign imagewidth = 80 %}
+    {% assign imagewidth = 70 %}
     {% assign projects = site.data.resume['Projects'] | slice: firstprojects, 100 %}
     {% include rightprojects.html %}
     <p>And more you can see on <a href="http://thume.ca/">http://thume.ca/</a> and on my <a href="//github.com/trishume">Github profile</a></p>
