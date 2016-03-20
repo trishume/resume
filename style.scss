@@ -386,6 +386,11 @@ h3 a:hover {
     margin-top: 0px;
   }
 
+  .last-no-padding .item:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
   .print .container {
     padding: 5px 10mm;
     margin: 0 auto;

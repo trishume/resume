@@ -20,7 +20,8 @@ Work:
     desc: |
       - Helped develop <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">Shopify Shipping</a>. I <a href="https://github.com/Shopify/active_shipping/graphs/contributors">maintained ActiveShipping</a>, fixed production disruptions, and implemented package tracking.
       - Owned the front-end and back-end development of the <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">unified fulfillment and label purchase form</a> now used by thousands of merchants every day.
-      - Earned the best possible score on my performance review, and was awarded an increased compensation package to match a full-time developer.
+      - Held the responsibilities and compensation of a full-time developer.
+      - Earned the best possible score on my performance review.
   - name: Shopify
     modifier: Stack Team
     link: https://www.shopify.com/
@@ -39,7 +40,7 @@ Work:
     time: Summer 2013
     image: shopify.png
     image-no-pop: true
-    short-desc: Ruby on Rails development + Writing a user-friendly parser.
+    short-desc: Worked on Ruby on Rails projects and a new parser for <a href="https://github.com/Shopify/liquid">Liquid</a>.
     desc: |
       - Worked on over 10 different Ruby on Rails projects. Implemented new features and responded to customer requests.
       - Wrote a <a href="https://github.com/Shopify/liquid/pull/235">recursive descent parser</a> for <a href="https://github.com/shopify/liquid">Liquid</a> that replaces the regex based one and properly detects syntax errors.
@@ -49,7 +50,7 @@ Work:
     time: Fall 2012
     image: eclipse.png
     image-no-pop: true
-    short-desc: Implementing features and fixing bugs in the Eclipse IDE.
+    short-desc: Implemented features and fixed bugs in the Eclipse IDE.
     desc: |
       Submitted patches for many bugs including ones that have been around for eleven years and have affected hundreds of thousands of people.
   - name: Halogen Software
@@ -58,7 +59,7 @@ Work:
     time: Summer 2012
     image: halogen.png
     image-no-pop: true
-    short-desc: Web accessibility + automated a 2 week process to 5 minutes.
+    short-desc: Investigated web accessibility and automated a data entry process.
     desc: |
       - Automated a data entry process from two weeks of work down to 5 minutes in one afternoon of Ruby scripting.
       - Developed a time estimate, prototype and guide for making the Halogen system section 508 accessibility standards compliant.
@@ -90,14 +91,14 @@ Projects:
     image: polytype.jpg
     image-height: 60
     desc: |
-      I built a working keyboard I designed in Autocad and put together with laser cut acrylic layers, Cherry MX switches, lots of soldering, and an ARM microcontroller.
+      I built a working keyboard I designed in AutoCAD and put together with laser cut acrylic layers, Cherry MX switches, lots of soldering, and an ARM microcontroller.
   - name: IndexView
     link: http://thume.ca/indexView/
     title: JS canvas visualization
     image: indexview.png
     image-height: 60
     desc: |
-      An exploration tool for long term financial market data written in javascript with a custom canvas graph widget allowing for fluid zooming and navigation of hundreds of years of data with live stats.
+      An exploration tool for long term financial market data written in JavaScript with a custom canvas graph widget allowing for fluid zooming and navigation of hundreds of years of data with live stats.
   - name: EyeLike
     link: https://github.com/trishume/eyeLike
     title: OpenCV pupil tracking implementation
