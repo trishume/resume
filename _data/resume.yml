@@ -179,11 +179,11 @@ Projects:
       Python program to convert images to massive piecewise functions that show the image when plotted. Outputs images with matplotlib and giant LaTeX PDFs of the functions.
   - name: Bitty Chess
     link: https://www.student.cs.uwaterloo.ca/~cs246/
-    title: CS256 Final project
+    title: CS256 final project
     image: bittychess.png
     image-height: 60
     desc: |
-      My CS 246 final assignment: A chess engine with all rules, graphics, 5 levels of A.I and human players implemented in 15 hours and 993 lines of code. This is half the lines of code and less than half the time most of my classmates needed. The code is quite readable, the small size was achieved through clever abstraction.
+      My CS 246 final assignment: A chess engine with all rules, graphics, 5 levels of A.I and human players implemented in 15 hours and 993 lines of code. This is half the lines of code and less than half the time most of my classmates needed. The code is quite readable, the small size was achieved through clever design.
   - name: ScreenTunes
     link: http://thume.ca/screentunes/
     title: Most popular project
@@ -193,8 +193,29 @@ Projects:
       Two hour hack with JS Canvas that made it to the front page of Reddit via [/r/InternetIsBeautiful](https://www.reddit.com/r/InternetIsBeautiful/). It makes some LCD screens emit a tone.
   - name: Turing in Turing
     link: http://tristan.hume.ca/tint/
-    title: Turing Interpreter
+    title: Turing interpreter
     image: turinginturing.png
     image-height: 60
     desc: |
       My grade 9 programming class (a grade 11 class, I took it in grade 9) final project: a Turing interpreter written in Turing, including a GUI.
+  - name: SmartGaze
+    link: https://github.com/trishume/SmartGaze
+    title: Eye tracking algorithms
+    image: smartgaze.png
+    image-height: 60
+    desc: |
+      I [reverse engineered](http://thume.ca/2016/02/02/a-reverse-engineering-adventure-eye-tribes-usb-protocol/) my [Eye Tribe](http://theeyetribe.com/) tracker's USB protocol and implemented a basic glint and iris tracker on the raw image feed.
+  - name: LookMouse
+    link: https://github.com/trishume/LookMouse
+    title: Head tracking mouse
+    image: lookmouse.jpg
+    image-height: 60
+    desc: |
+      A weekend project to build a head tracking mouse using a 9DOF IMU (basically an orientation sensor) connected to a microcontroller in a 3D printed case.
+  - name: BlinKey
+    link: https://github.com/trishume/BlinKey
+    title: One button keyboard
+    image: blinkey.jpg
+    image-height: 60
+    desc: |
+      A small batch of one button keyboards with RGB LEDs that can type a keyboard shortcut and can have their colour controlled by the [blink(1)](https://blink1.thingm.com/) protocol.
