@@ -134,6 +134,13 @@ Projects:
     image-height: 60
     desc: |
       IOS apps developed in 2010 on contract for a professor at Carleton University for performing common psychological tests.
+  - name: Dayder
+    link: http://dayder.thume.ca/
+    title: Spurious correlation finding web app
+    image: dayder.png
+    image-height: 60
+    desc: |
+      A web app for finding spurious correlations in a large number of time series data sets. Uses a [custom binary format](https://github.com/trishume/dayder/blob/master/format.md) for data storage and transmission. I wrote custom DOM and JS Canvas rendering code for instantly rendering graphs.
   - name: MacRanger
     link: https://github.com/trishume/MacRanger
     title: Forked file manager
