@@ -106,6 +106,13 @@ Projects:
     image-height: 60
     desc: |
       An implementation of a webcam pupil tracking algorithm in OpenCV that garners weekly emails from researchers and 30,000 views per year. It is the first hit on Google for "OpenCV eye tracking".
+  - name: Syntect
+    link: https://github.com/trishume/syntect
+    title: Syntax Highlighting Library
+    image: syntect.png
+    image-height: 60
+    desc: |
+      A high quality syntax highlighting library in Rust based on Sublime Text 3's grammar and theme formats. Relentlessly optimized for high performance and excellent highlighting quality. Well-documented, tested and fully-featured.
   - name: IndexView
     link: http://thume.ca/indexView/
     title: JS canvas visualization
