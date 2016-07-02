@@ -18,13 +18,13 @@ main: &mainlist
       Ruby, C++, Javascript
 
       ##### 5,000-10,000 lines
-      Objective-C, Java, Turing, HTML, CSS, PHP
+      Objective-C, Rust, Java, HTML, CSS, Turing
 
       ##### 1,000-5,000 lines
       Go, Emacs Lisp, Racket, Python, D, Lua
 
       ##### 500-1,000 lines
-      Haskell, Rust, Nim, Bash, Scala
+      Haskell, Nim, Bash, Scala, PHP
 
       ##### 250-500 lines
       Nix, Julia, Haxe, Actionscript
@@ -54,7 +54,7 @@ extra:
       I've written over 10,000 lines of code in each of these languages.
 
       I also enjoy learning new languages: I've done projects in 22
-      different languages including Haskell, Rust, D, Go, and Scala.
+      different languages including Rust, Haskell, D, Go, and Scala.
   - &reading
     title: Reading
     content: |

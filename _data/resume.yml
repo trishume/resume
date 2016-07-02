@@ -98,7 +98,7 @@ Projects:
     image: dayder.png
     image-height: 60
     desc: |
-      A web app for finding spurious correlations in 300,000+ time series data sets. I wrote custom optimized DOM, JS Canvas rendering, caching and [binary serialization](https://github.com/trishume/dayder/blob/master/format.md) code for instantly responding to queries.
+      A web app for finding spurious correlations in 390,000 time series data sets. I wrote custom optimized DOM, JS Canvas rendering, caching and [binary serialization](https://github.com/trishume/dayder/blob/master/format.md) code for instantly responding to queries.
   - name: EyeLike
     link: https://github.com/trishume/eyeLike
     title: OpenCV pupil tracking implementation
