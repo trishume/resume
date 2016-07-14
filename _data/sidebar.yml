@@ -55,15 +55,6 @@ extra:
 
       I also enjoy learning new languages: I've done projects in 22
       different languages including Rust, Haskell, D, Go, and Scala.
-  - &reading
-    title: Reading
-    content: |
-      For the past 8 years I've spent on average 2 hours per day reading about programming and technology. That adds up to 3 times the number of lecture hours in a CS degree.
-      I've read hundreds of academic papers (mostly on HCI, compilers, computer vision, and databases), thousands of articles (largely from 5 years of [Hacker News](https://news.ycombinator.com/)), and dozens of programming books.
-  - &anecdote
-    title: Anecdotal Evidence
-    content: |
-      At Shopify I was one of two interns (out of hundreds in the past) to get a significant unsolicited raise to the pay level of a full time employee, as well as stock options, in the middle of my co-op term.
 pdf: *mainlist
   # - *about
   # - *reading

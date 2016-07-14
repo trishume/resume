@@ -219,6 +219,13 @@ Projects:
     image-height: 60
     desc: |
       Two hour hack with JS Canvas that made it to the front page of Reddit via [/r/InternetIsBeautiful](https://www.reddit.com/r/InternetIsBeautiful/). It makes some LCD screens emit a tone.
+  - name: PopClick
+    link: https://github.com/trishume/PopClick
+    title: Mouth noise recognizer
+    image: popclick.png
+    image-height: 60
+    desc: |
+      Low-latency high accuracy audio recognizer for mouth noises. Written for my HCI research and later used for [hands-free OSX scrolling as a Lua module](https://github.com/trishume/thume.popclick)
   - name: FaceHack
     link: https://github.com/trishume/faceHack
     title: TerribleHacks 2015
