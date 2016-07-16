@@ -176,6 +176,13 @@ Projects:
     image-height: 40
     desc: |
       Finds Git repositories on your computer and lets you quickly switch to them, list them, and run commands on them. A small project, but a useful one with thousands of users.
+  - name: Hammerspoon Modules
+    link: https://github.com/trishume/dotfiles/blob/master/hammerspoon/hammerspoon.symlink/init.lua
+    title: Pro window management
+    image: hammerspoon.png
+    image-height: 60
+    desc: |
+      I've contributed 3 different modules for the [Hammerspoon](https://github.com/Hammerspoon/hammerspoon) window manager: one can add tabs to any OSX app, one allows switching to any window with two keystrokes, and one allows scrolling down by saying "ssssss".
   - name: MacRanger
     link: https://github.com/trishume/MacRanger
     title: Forked file manager
