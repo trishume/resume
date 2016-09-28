@@ -1,10 +1,20 @@
 Work:
+  - name: Jane Street Capital
+    link: http://janestreet.com/
+    title: Developer Intern
+    time: Fall 2016
+    image: janestreetlambda.png
+    image-height: 50
+    image-no-pop: true
+    short-desc: "Internship at the London UK office in progress..."
+    desc: |
+      - Worked on a [js_of_ocaml](http://ocsigen.org/js_of_ocaml/)-based debugging and code exploration tool for a custom rule matching language.
+      - More to come, I'm still working there in their London UK office.
   - name: UWaterloo HCI Lab
     link: http://hci.cs.uwaterloo.ca/
     title: Undergraduate Researcher
-    time: Winter 2016-present
+    time: Winter 2016
     image: uwaterloo.png
-    image-height: 60
     image-no-pop: true
     desc: |
       - Designed and developed a hands-free mouse alternative that combines the speed of eye tracking and the accuracy of head tracking using [MAGIC](http://www.shuminzhai.com/papers/magic/magic.pdf).
