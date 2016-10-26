@@ -9,6 +9,8 @@ main: &mainlist
       I've created dozens of open source projects with over 20,000 combined users (300,000 if you count web apps), all of which you can find [on my Github page](//github.com/trishume).
 
       I was also the [first contributor](https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#first-times) and [long time](https://github.com/syl20bnr/spacemacs/commits?author=trishume&page=1) top contributor to [Spacemacs](https://github.com/syl20bnr/spacemacs), a now quite popular configuration package for Emacs.
+
+      I once went on a 201 day long Github streak.
   - &languageslong
     title: Languages Used
     content: |

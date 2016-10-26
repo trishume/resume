@@ -6,10 +6,10 @@ Work:
     image: janestreetlambda.png
     image-height: 50
     image-no-pop: true
-    short-desc: "Internship at the London UK office in progress..."
+    # short-desc: "Internship at the London UK office in progress..."
     desc: |
-      - Worked on a [js_of_ocaml](http://ocsigen.org/js_of_ocaml/)-based debugging and code exploration tool for a custom rule matching language.
-      - More to come, I'm still working there in their London UK office.
+      - Wrote a [js_of_ocaml](http://ocsigen.org/js_of_ocaml/)-based debugging and exploration tool that reinterprets a rule matching language to find all possible paths given a set of constraints on the input.
+      - Implemented parsing and processing code for a low latency binary UDP market data feed with zero-allocation OCaml. Learned a lot about finance in the process.
   - name: UWaterloo HCI Lab
     link: http://hci.cs.uwaterloo.ca/
     title: Undergraduate Researcher
@@ -17,7 +17,7 @@ Work:
     image: uwaterloo.png
     image-no-pop: true
     desc: |
-      - Designed and developed a hands-free mouse alternative that combines the speed of eye tracking and the accuracy of head tracking using [MAGIC](http://www.shuminzhai.com/papers/magic/magic.pdf).
+      - Designed and developed a hands-free mouse alternative that combines the speed of an eye tracker and the accuracy of head tracking using [MAGIC](http://www.shuminzhai.com/papers/magic/magic.pdf).
       - Developed high accuracy low-latency audio recognition algorithms for using various mouth noises (e.g lip popping) to perform actions like clicking.
       - Combined knowledge from reading hundreds of academic papers on HCI techniques and eye tracking computer vision algorithms to develop an enjoyable to use system with speed and accuracy similar to a trackpad.
   - name: Shopify
@@ -27,6 +27,9 @@ Work:
     time: Summer 2015
     image: shopify.png
     image-no-pop: true
+    short-desc: |
+      Helped develop <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">Shopify Shipping</a>. I fixed production disruptions, implemented package tracking and
+      owned the development of the <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">unified fulfillment and label purchase form</a> now used by thousands of merchants every day.
     desc: |
       - Helped develop <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">Shopify Shipping</a>. I <a href="https://github.com/Shopify/active_shipping/graphs/contributors">maintained ActiveShipping</a>, fixed production disruptions, and implemented package tracking.
       - Owned the front-end and back-end development of the <a href="https://www.shopify.com/blog/54177669-now-you-can-print-usps-shipping-labels-in-shopify-saving-you-time-and-money">unified fulfillment and label purchase form</a> now used by thousands of merchants every day.
@@ -108,7 +111,14 @@ Projects:
     image: dayder.png
     image-height: 60
     desc: |
-      A web app for finding spurious correlations in 390,000 time series data sets. I wrote custom optimized DOM, JS Canvas rendering, caching and [binary serialization](https://github.com/trishume/dayder/blob/master/format.md) code for instantly responding to queries.
+      A Rust web app for finding spurious correlations in 390,000 time series data sets. I wrote custom optimized DOM, JS Canvas rendering, caching, correlation and [binary serialization](https://github.com/trishume/dayder/blob/master/format.md) code for instantly responding to queries.
+  - name: SmartGaze
+    link: https://github.com/trishume/SmartGaze
+    title: Eye tracking algorithms
+    image: smartgaze.png
+    image-height: 60
+    desc: |
+      I [reverse engineered](http://thume.ca/2016/02/02/a-reverse-engineering-adventure-eye-tribes-usb-protocol/) my [Eye Tribe](http://theeyetribe.com/) tracker's USB protocol by scripting LLDB to capture their USB messages and implemented a glint and iris tracker on the raw image feed suitable for high accuracy eye tracking.
   - name: EyeLike
     link: https://github.com/trishume/eyeLike
     title: OpenCV pupil tracking implementation
@@ -158,13 +168,6 @@ Projects:
     image-height: 60
     desc: |
       A tool for generating PNG images that show one thing in thumbnails and a different thing in another. Exploits some PNG implementations implementing gamma correction and some not.
-  - name: SmartGaze
-    link: https://github.com/trishume/SmartGaze
-    title: Eye tracking algorithms
-    image: smartgaze.png
-    image-height: 60
-    desc: |
-      I [reverse engineered](http://thume.ca/2016/02/02/a-reverse-engineering-adventure-eye-tribes-usb-protocol/) my [Eye Tribe](http://theeyetribe.com/) tracker's USB protocol and implemented a basic glint and iris tracker on the raw image feed.
   - name: Bitty Chess
     link: https://www.student.cs.uwaterloo.ca/~cs246/
     title: CS256 final project
