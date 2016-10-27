@@ -2,7 +2,7 @@ main: &mainlist
   - &about
     title: About
     content: |
-      I’m a highly passionate developer who has spent the last 10 years building dozens of projects using a large variety of languages and technologies. I’m also building a solid academic groundwork through my studies as a CS student, research work, and spending lots of my spare time reading.
+      I’m a highly passionate developer who has spent the last 10 years building dozens of projects using a large variety of languages and technologies. I’m also building a solid academic groundwork through my studies as a CS student, research work, and spending lots of my spare time reading. I'm a 3rd year student with a GPA of 88% and 94% in-major.
   - &opensource
     title: Open Source
     content: |
