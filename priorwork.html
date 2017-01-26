@@ -1,0 +1,14 @@
+---
+layout: "plain"
+---
+<div class="container">
+  {% assign sidebar = site.data.sidebar.main %}
+
+  <div class="main last-no-padding">
+    <h2 style="margin: 0px;">Prior Work/Inventions</h2>
+    <p>I own the copyright to all of the following works or share the copyright with other open source contributors/collaborators. This list does not include work I've contributed to other projects. I've contributed code to Spacemacs, SymPY, hledger-iadd, Hammerspoon, tuareg as well as multiple other projects. Nearly all of these projects and more can be found on my Github page at <a href="https://github.com/trishume">https://github.com/trishume</a>. <strong>All these works were done prior to {{ site.time | date: '%a, %b %d, %Y' }} and are original works done outside of employment.</strong></p>
+    <br>
+    {% assign sectioncontent = site.data.resume['Projects'] %}
+    {% include plainsection.html %}
+  </div>
+</div>

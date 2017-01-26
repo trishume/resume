@@ -181,7 +181,7 @@ Projects:
     image: pathspan.png
     image-height: 60
     desc: |
-      IOS apps developed in 2010 on contract for a professor at Carleton University for performing common psychological tests.
+      IOS apps developed in 2010 on contract for a professor at Carleton University for performing common psychological tests. I was paid to develop the apps but retained the rights to the code and to sell them.
   - name: Pro
     link: https://github.com/trishume/pro
     title: Git repo manager
@@ -253,6 +253,13 @@ Projects:
     image-height: 60
     desc: |
       One day project that deforms your face on top of faces in videos. Face tracking in C++ with [DLib](http://dlib.net/) and UI in Javascript with WebGL. Made for [TerribleHack 2015](http://terriblehack.website/).
+  - name: SmartHeadTracker
+    link: https://github.com/trishume/SmartHeadTracker
+    title: Head tracking mouse
+    image: smartheadtracker.jpg
+    image-height: 60
+    desc: |
+      Uses OpenCV to accurately and quickly track a pink dot on a microphone headset with a 60fps webcam for precise fast optical head tracking.
   - name: LookMouse
     link: https://github.com/trishume/LookMouse
     title: Head tracking mouse
@@ -260,3 +267,16 @@ Projects:
     image-height: 60
     desc: |
       A weekend project to build a head tracking mouse using a 9DOF IMU (basically an orientation sensor) connected to a microcontroller in a 3D printed case.
+  - name: LastSecondSlides
+    link: https://github.com/trishume/LastSecondSlides
+    image: lastsecondslides.png
+    image-height: 60
+    desc: Generates slides as you speak using the Google speech-to-text API. Made for the TerribleHack hackathon.
+  - name: Faiyels
+    link: https://github.com/trishume/faiyels
+    image: faiyels.png
+    image-height: 60
+    desc: Explore an overview of a codebase by rendering every character as a tiny syntax highlighted dot. Written with Rust, syntect and gfx-rs.
+  - name: ddbus
+    link: https://github.com/trishume/ddbus
+    desc: A DBus library for the D language. Uses compile-time introspection to generate efficient calls without a separate code generation step.
