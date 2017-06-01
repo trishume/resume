@@ -1,4 +1,16 @@
 Work:
+  - name: Google
+    link: http://google.com/
+    title: Software Engineering Intern
+    time: Summer 2017
+    image: google.png
+    image-height: 50
+    image-no-pop: true
+    desc: |
+      **In progress, some of the following I've done and some is just my plan**
+
+      - Worked on an [open-source](https://github.com/google/xi-editor/tree/master/rust/rope) Conflict-free Replicated Data Type for text, refining it for fast and seamless editing and merging.
+      - Implemented multi-device text synchronization for the [Fuchsia operating system](https://fuchsia.googlesource.com/docs/+/master/book.md) including reliable merging of changes after editing offline across devices.
   - name: Jane Street Capital
     link: http://janestreet.com/
     title: Developer Intern
@@ -10,6 +22,7 @@ Work:
     desc: |
       - Wrote a [js_of_ocaml](http://ocsigen.org/js_of_ocaml/)-based debugging and exploration tool that reinterprets a rule matching language to find all possible paths given a set of constraints on the input.
       - Implemented parsing and processing code for a low latency binary UDP market data feed with zero-allocation OCaml. Learned a lot about finance in the process.
+      - Developed a custom tree diffing algorithm based on minimizing a cost model using dynamic programming accelerated with an A* search for large trees.
   - name: UWaterloo HCI Lab
     link: http://hci.cs.uwaterloo.ca/
     title: Undergraduate Researcher
