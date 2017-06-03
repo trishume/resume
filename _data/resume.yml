@@ -290,6 +290,11 @@ Projects:
     image: faiyels.png
     image-height: 60
     desc: Explore an overview of a codebase by rendering every character as a tiny syntax highlighted dot. Written with Rust, syntect and gfx-rs.
+  - name: Normal Distribution Calculator
+    link: http://thume.ca/normal
+    image: normal.png
+    image-height: 60
+    desc: A web app for doing common calculations related to normal distributions. Nice minimal UI that updates calculations as you type and saves the state in the URL so you can link others to it.
   - name: ddbus
     link: https://github.com/trishume/ddbus
     desc: A DBus library for the D language. Uses compile-time introspection to generate efficient calls without a separate code generation step.
