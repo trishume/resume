@@ -7,9 +7,7 @@ Work:
     image-height: 50
     image-no-pop: true
     desc: |
-      **In progress, some of the following I've done and some is just my plan**
-
-      - Worked on an [open-source](https://github.com/google/xi-editor/tree/master/rust/rope) Conflict-free Replicated Data Type for text, refining it for fast and seamless editing and merging.
+      - Worked on an [open-source](https://github.com/google/xi-editor/issues/250) Conflict-free Replicated Data Type for text, refining it for fast and seamless editing and merging.
       - Implemented multi-device text synchronization for the [Fuchsia operating system](https://fuchsia.googlesource.com/docs/+/master/book.md) including reliable merging of changes after editing offline across devices.
   - name: Jane Street Capital
     link: http://janestreet.com/
