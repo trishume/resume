@@ -213,7 +213,7 @@ h4 {
   font-family: 'PT Sans Caption', sans-serif;
   font-size: 15px;
   line-height:18px;
-  margin: 25px 0 0 0;
+  margin: 2px 0 0 0;
   font-weight: normal;
 }
 h4#references {
@@ -381,6 +381,10 @@ h3 a:hover {
     color: #53AFC4 !important;
   }
 
+  li {
+    margin-top: 1px;
+  }
+
   .container {
     width:auto;
   }
@@ -395,7 +399,7 @@ h3 a:hover {
   }
 
   .print .container {
-    padding: 5px 10mm;
+    padding: 0px 10mm;
     margin: 0 auto;
   }
   .print #bg {

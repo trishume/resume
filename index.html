@@ -7,6 +7,8 @@ layout: "default"
 
   <div class="main">
     {% for section in site.data.resume %}
+      {% assign sectionname = section[0] %}
+      {% assign sectioncontent = section[1] %}
       {% include section.html %}
     {% endfor %}
   </div>

@@ -2,15 +2,26 @@
 layout: "default"
 ---
 {% assign firstprojects = 6 %}
+{% assign firstjobs = 4 %}
 <div class="container">
   {% assign sidebar = site.data.sidebar.onepage %}
   {% include sidebar.html %}
   <div class="main">
     {% for section in site.data.resume %}
       {% if section[0] != 'Projects' %}
+        {% assign sectionname = section[0] %}
+        {% assign sectioncontent = section[1] | slice: 0, firstjobs %}
         {% include section.html %}
       {% endif %}
     {% endfor %}
+    <div class="item">
+      <div class="item-header">
+        <h4><a href="http://thume.ca/resume">Developer Internships During High School</a></h4>
+      </div>
+      <div class="item-body">
+        <p>1 month at Shopify in 2014, 2 months at Shopify in 2013, 2 months at The Eclipse Foundation in 2012, 3 weeks at Halogen in 2012.</p>
+      </div>
+    </div>
   </div>
 </div>
 <div class="container right-image-item">
@@ -21,10 +32,10 @@ layout: "default"
     {% include plainsection.html %}
   </div>
   <div class="right-image">
-    <img src="images/fullsize/stashline.png" width="120" /><br>
-    <img src="images/fullsize/openturing.png" width="120" /><br>
-    <img src="images/fullsize/polytype.jpg" width="120" /><br>
-    <!-- <img src="images/fullsize/indexview.png" width="120" /><br> -->
-    <img src="images/fullsize/smartgaze.png" width="120" /><br>
+    <img src="images/fullsize/openturing.png" width="107" /><br>
+    <img src="images/fullsize/polytype.jpg" width="107" /><br>
+    <!-- <img src="images/fullsize/indexview.png" width="107" /><br> -->
+    <img src="images/fullsize/smartgaze.png" width="107" /><br>
+    <img src="images/fullsize/stashline.png" width="107" /><br>
   </div>
 </div>

@@ -13,6 +13,8 @@ layout: "default"
         {% assign imagewidth = 60 %}
         {% include rightprojects.html %}
       {% else %}
+        {% assign sectionname = section[0] %}
+        {% assign sectioncontent = section[1] %}
         {% include section.html %}
       {% endif %}
     {% endfor %}
