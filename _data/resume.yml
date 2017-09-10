@@ -296,3 +296,6 @@ Projects:
   - name: ddbus
     link: https://github.com/trishume/ddbus
     desc: A DBus library for the D language. Uses compile-time introspection to generate efficient calls without a separate code generation step.
+  - name: HNBlogs
+    link: http://hnblogs.thume.ca/
+    desc: An RSS feed of the comments of a bunch of interesting Hacker News users, nicely formatted.
