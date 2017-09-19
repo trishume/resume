@@ -151,6 +151,13 @@ Projects:
     image-height: 60
     desc: |
       An exploration tool for long term financial market data written in JavaScript with a custom canvas graph widget allowing for fluid zooming and navigation of hundreds of years of data with live stats.
+  - name: Quickdown
+    link: https://github.com/trishume/quickdown
+    title: Fast Markdown viewer
+    image: quickdown.png
+    image-height: 60
+    desc: |
+      An ultra-fast lightweight Markdown viewer written in Rust with GPU rendering by Webrender. Uses a custom document model, styling and text layout to start up and load enormous documents in 0.5s with 60fps scrolling.
   - name: Electioneering
     link: http://devpost.com/software/electioneering-the-game
     title: Hack The North 2015
