@@ -186,6 +186,11 @@ Projects:
     image-height: 60
     desc: |
       A tool for generating PNG images that show one thing in thumbnails and a different thing in another. Exploits some PNG implementations implementing gamma correction and some not.
+  - name: Enfasten
+    link: https://github.com/trishume/enfasten
+    title: Image processor
+    desc: |
+      A tool written in Go which takes in a static site, scales the images down to a number of different sizes, optimizes them, then rewrites all of a site's HTML to use responsive image tags. It's fully incremental and configurable.
   - name: Bitty Chess
     link: https://www.student.cs.uwaterloo.ca/~cs246/
     title: CS256 final project
