@@ -125,7 +125,7 @@ Projects:
       An IOS app for long term personal finance simulation with 7000 users. Has a custom built UI that instantly updates a visualization of your entire life's financial future while you manipulate inputs.
   - name: Syntect
     link: https://github.com/trishume/syntect
-    title: Syntax Highlighting Library
+    title: Syntax highlighting Library
     image: syntect.png
     image-height: 60
     desc: |
@@ -174,7 +174,7 @@ Projects:
       Contributed many layers and fixes to <a href="https://github.com/syl20bnr/spacemacs">the Spacemacs Emacs distribution</a>. I was the <a href="https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#first-times">First contributor</a> and a long-time top contributor.
   - name: Blog
     link: http://thume.ca/archive.html
-    title: Useful Tech Articles
+    title: Useful tech articles
     image: blog.png
     image-height: 60
     desc: |
@@ -271,7 +271,7 @@ Projects:
       Low-latency high accuracy audio recognizer for mouth noises. Written for my HCI research and later used for [hands-free OSX scrolling as a Lua module](https://github.com/trishume/thume.popclick)
   - name: FaceHack
     link: https://github.com/trishume/faceHack
-    title: TerribleHacks 2015
+    title: TerribleHack 2015
     image: facehack.jpg
     image-height: 60
     desc: |
