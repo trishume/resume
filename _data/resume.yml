@@ -1,4 +1,14 @@
 Work:
+  - name: Cruise
+    link: http://getcruise.com/
+    title: Computer Vision Intern
+    time: Winter 2018
+    image: cruise.png
+    image-height: 50
+    image-no-pop: true
+    desc: |
+      - Gathering data and training a model in Tensorflow for detecting rain on cameras.
+      - Still ongoing, more to come...
   - name: Google
     link: http://google.com/
     title: Software Engineering Intern
@@ -276,6 +286,11 @@ Projects:
     image-height: 60
     desc: |
       One day project that deforms your face on top of faces in videos. Face tracking in C++ with [DLib](http://dlib.net/) and UI in Javascript with WebGL. Made for [TerribleHack 2015](http://terriblehack.website/).
+  - name: FusionMouse
+    link: https://github.com/trishume/FusionMouse
+    title: Head+Gaze tracking mouse
+    desc: |
+      Uses a Tobii 4C and a TrackIR 5 with software written in Rust to combine gaze and head tracking into a fast hands-free mouse.
   - name: SmartHeadTracker
     link: https://github.com/trishume/SmartHeadTracker
     title: Head tracking mouse
