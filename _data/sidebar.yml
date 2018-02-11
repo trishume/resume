@@ -17,19 +17,19 @@ main: &mainlist
       I love trying new language so I've used a lot of them:
 
       ##### 10,000+ lines written
-      Ruby, Rust, C++
+      Rust, C++, Ruby
 
       ##### 5,000-10,000 lines
-      Objective-C, Javascript, Java, HTML, CSS, Turing
+      Objective-C, Javascript, Turing
 
       ##### 1,000-5,000 lines
-      OCaml, Go, Emacs Lisp, Racket, Python, D, Lua
+      OCaml, Go, Emacs Lisp, Python, Racket, D, Lua, Java, HTML, CSS
 
       ##### 500-1,000 lines
-      Haskell, Nim, Bash, Scala, PHP
+      Julia, Haskell, Nim, Bash, Scala, PHP
 
       ##### 250-500 lines
-      Nix, Julia, Haxe, Actionscript
+      Nix, Haxe, Actionscript
 extra:
   - &skills
     title: Skills

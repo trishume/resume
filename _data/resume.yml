@@ -7,7 +7,7 @@ Work:
     image-height: 50
     image-no-pop: true
     desc: |
-      - Gathering data and training a model in Tensorflow for detecting rain on cameras.
+      - Created a model, data pipeline and training and evaluation framework in Tensorflow for detecting the artifacts of rain on camera lenses.
       - Still ongoing, more to come...
   - name: Google
     link: http://google.com/
@@ -139,7 +139,7 @@ Projects:
     image: syntect.png
     image-height: 60
     desc: |
-      A high quality syntax highlighting library in Rust based on Sublime Text 3's grammar and theme formats. Relentlessly optimized for high performance and excellent highlighting quality. Well-documented, tested and fully-featured.
+      A high quality syntax highlighting library in Rust based on Sublime Text 3's grammar and theme formats. Relentlessly optimized for performance and highlighting quality. Well-documented, tested and fully-featured.
   - name: Rate With Science
     link: http://thume.ca/2015/03/30/wikipedia-link-graphs-and-terrible-hacks/
     title: Wikipedia data processing

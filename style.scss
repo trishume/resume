@@ -355,6 +355,9 @@ h3 a:hover {
     page-break-inside: avoid;
     margin-bottom: 5px;
   }
+  .item:last-child {
+    margin-bottom: 0px;
+  }
   .item-header h3 {
     margin-bottom: -10px;
   }
@@ -414,5 +417,10 @@ h3 a:hover {
   .print #bg h5 {
     color:#000;
     margin: -5px 0 -2px 0;
+  }
+
+  @page {
+    margin-top: 0cm;
+    margin-bottom: 0cm;
   }
 }
