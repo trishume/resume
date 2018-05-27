@@ -7,8 +7,8 @@ Work:
     image-height: 50
     image-no-pop: true
     desc: |
-      - Created a model, data pipeline and training and evaluation framework in Tensorflow for detecting the artifacts of rain on camera lenses.
-      - Still ongoing, more to come...
+      - Built an internal model training system around Tensorflow including fast reproducible data loading, training, testing and exporting.
+      - Designed, tuned, tested and integrated a machine learning model for detecting flares from rain on camera lenses.
   - name: Google
     link: http://google.com/
     title: Software Engineering Intern
@@ -98,6 +98,13 @@ Work:
       - Automated a data entry process from two weeks of work down to 5 minutes in one afternoon of Ruby scripting.
       - Developed a time estimate, prototype and guide for making the Halogen system section 508 accessibility standards compliant.
 Projects:
+  - name: Syntect
+    link: https://github.com/trishume/syntect
+    title: Syntax highlighting Library
+    image: syntect.png
+    image-height: 60
+    desc: |
+      A fast high quality syntax highlighting library in Rust based on Sublime Text 3's grammars. Well documented and tested, with active contributors. Powers two commercial products parsing terabytes of code per day.
   - name: Dayder
     link: http://dayder.thume.ca/
     title: Spurious correlation finding web app
@@ -133,13 +140,6 @@ Projects:
     image-height: 70
     desc: |
       An IOS app for long term personal finance simulation with 7000 users. Has a custom built UI that instantly updates a visualization of your entire life's financial future while you manipulate inputs.
-  - name: Syntect
-    link: https://github.com/trishume/syntect
-    title: Syntax highlighting Library
-    image: syntect.png
-    image-height: 60
-    desc: |
-      A high quality syntax highlighting library in Rust based on Sublime Text 3's grammar and theme formats. Relentlessly optimized for performance and highlighting quality. Well-documented, tested and fully-featured.
   - name: Rate With Science
     link: http://thume.ca/2015/03/30/wikipedia-link-graphs-and-terrible-hacks/
     title: Wikipedia data processing
@@ -222,6 +222,14 @@ Projects:
     image-height: 40
     desc: |
       Finds Git repositories on your computer and lets you quickly switch to them, list them, and run commands on them. A small project, but a useful one with thousands of users.
+  - name: Emoji Engine
+    link: https://github.com/trishume/EmojiEngine
+    title: WebGL emoji renderer
+    image: emojiengine.png
+    image-height: 60
+    desc: |
+      The world's fastest rendering engine for emoji and only emoji. Uses instanced mip-mapped point sprites with no overdraw to render 90k emojis at 60fps in a browser using WebGL.
+      Made for [TerribleHack X](http://terriblehack.website/).
   - name: Hammerspoon Modules
     link: https://github.com/trishume/dotfiles/blob/master/hammerspoon/hammerspoon.symlink/init.lua
     title: Pro window management
@@ -258,13 +266,6 @@ Projects:
     image-height: 60
     desc: |
       My grade 9 programming class (a grade 11 class, I took it in grade 9) final project: a Turing interpreter written in Turing, including a GUI.
-  - name: Grade 11 Math Summative
-    link: http://thume.ca/2013/12/09/math-summative-program/
-    title: Drawing with functions
-    image: mathsummative2.png
-    image-height: 80
-    desc: |
-      Python program to convert images to massive piecewise functions that show the image when plotted. Outputs images with matplotlib and giant LaTeX PDFs of the functions.
   - name: ScreenTunes
     link: http://thume.ca/screentunes/
     title: Most popular project
@@ -305,6 +306,13 @@ Projects:
     image-height: 60
     desc: |
       A weekend project to build a head tracking mouse using a 9DOF IMU (basically an orientation sensor) connected to a microcontroller in a 3D printed case.
+  - name: Foot Pedal Box
+    link: https://twitter.com/trishume/status/950585012700684288
+    title: Cheap computer foot pedals
+    image: pedalbox.jpg
+    image-height: 60
+    desc: |
+      Built a box using a Teensy microcontroller to allow me to use $5 tattoo machine foot pedals with my computer.
   - name: LastSecondSlides
     link: https://github.com/trishume/LastSecondSlides
     image: lastsecondslides.png
@@ -315,6 +323,13 @@ Projects:
     image: faiyels.png
     image-height: 60
     desc: Explore an overview of a codebase by rendering every character as a tiny syntax highlighted dot. Written with Rust, syntect and gfx-rs.
+  - name: Grade 11 Math Summative
+    link: http://thume.ca/2013/12/09/math-summative-program/
+    title: Drawing with functions
+    image: mathsummative2.png
+    image-height: 80
+    desc: |
+      Python program to convert images to massive piecewise functions that show the image when plotted. Outputs images with matplotlib and giant LaTeX PDFs of the functions.
   - name: Normal Distribution Calculator
     link: http://thume.ca/normal
     image: normal.png
