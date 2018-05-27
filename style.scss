@@ -47,6 +47,22 @@ abbr {
   // font-family: 'PT Sans', sans-serif;
 }
 
+.item-dates {
+  font-size: 11px;
+  color: #888;
+  width: 100%;
+  left: -0%;
+  position: absolute;
+  transition: all .3s ease-in-out;
+  opacity: 0;
+  top: -5px;
+}
+
+.item-info:hover .item-dates {
+  opacity: 1;
+  top: -11px;
+}
+
 .side-image {
   position: absolute;
   width: 100px;
@@ -360,6 +376,12 @@ h3 a:hover {
   }
   .item-header h3 {
     margin-bottom: -10px;
+  }
+  .item-dates {
+    font-size: 5px;
+    top: -5px;
+    opacity: 1;
+    color: #EEE;
   }
   .try-no-break {
     page-break-inside: avoid;

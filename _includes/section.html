@@ -8,7 +8,14 @@
   {% endif %}
   <div class="item-header">
     <h3><a href="{{ item.link }}">{{ item.name }}{% if item.modifier %} ({{item.modifier}}){% endif %}</a></h3>
-    <span class="item-info">{{ item.title }}{% if item.time %}, {{ item.time }}{% endif %}</span>
+    <span class="item-info">
+     {{ item.title }}{% if item.time %},
+     <span class="item-time">{{ item.time }}</span>
+     {% endif %}
+     {% if item.dates %}
+     <span class="item-dates">{{ item.dates }}</span>
+     {% endif %}
+   </span>
   </div>
   <div class="item-body">
     {% if item.short-desc %}

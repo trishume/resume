@@ -3,6 +3,7 @@ Work:
     link: http://getcruise.com/
     title: Computer Vision Intern
     time: Winter 2018
+    dates: 2018/01/02 - 2018/04/20
     image: cruise.png
     image-height: 50
     image-no-pop: true
@@ -13,6 +14,7 @@ Work:
     link: http://google.com/
     title: Software Engineering Intern
     time: Summer 2017
+    dates: 2017/05/01 - 2017/08/04
     image: google.png
     image-height: 50
     image-no-pop: true
@@ -23,6 +25,7 @@ Work:
     link: http://janestreet.com/
     title: Developer Intern
     time: Fall 2016
+    dates: 2016/09/12 - 2016/12/16
     image: janestreetlambda.png
     image-height: 50
     image-no-pop: true
@@ -35,6 +38,7 @@ Work:
     link: http://hci.cs.uwaterloo.ca/
     title: Undergraduate Researcher
     time: Winter 2016
+    dates: 2016/01/04 - 2016/04/19
     image: uwaterloo.png
     image-no-pop: true
     desc: |
@@ -46,6 +50,7 @@ Work:
     link: https://www.shopify.com/
     title: Developer Intern
     time: Summer 2015
+    dates: 2015/05/04 - 2015/08/28
     image: shopify.png
     image-no-pop: true
     short-desc: |
@@ -61,6 +66,7 @@ Work:
     link: https://www.shopify.com/
     title: Developer Intern
     time: Summer 2014
+    dates: 2014/08/05 - 2014/08/29
     image: shopify.png
     image-no-pop: true
     short-desc: Containerized deployment tools with Go, Docker and Chef.
@@ -72,6 +78,7 @@ Work:
     link: https://www.shopify.com/
     title: Developer Intern
     time: Summer 2013
+    dates: 2013/07/01 - 2013/08/30
     image: shopify.png
     image-no-pop: true
     short-desc: Worked on Ruby on Rails projects and a new parser for <a href="https://github.com/Shopify/liquid">Liquid</a>.
@@ -82,6 +89,7 @@ Work:
     link: https://eclipse.org/ide/
     title: High-school Co-op Developer
     time: Fall 2012
+    dates: 2012/09/17 - 2013/01/18
     image: eclipse.png
     image-no-pop: true
     short-desc: Implemented features and fixed bugs in the Eclipse IDE.
@@ -91,6 +99,7 @@ Work:
     link: http://www.halogensoftware.com/
     title: Student Software Developer
     time: Summer 2012
+    dates: 2012/08/13 - 2012/08/31
     image: halogen.png
     image-no-pop: true
     short-desc: Investigated web accessibility and automated a data entry process.
