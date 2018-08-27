@@ -107,6 +107,13 @@ Work:
       - Automated a data entry process from two weeks of work down to 5 minutes in one afternoon of Ruby scripting.
       - Developed a time estimate, prototype and guide for making the Halogen system section 508 accessibility standards compliant.
 Projects:
+  - name: Yūbinkyoku
+    link: http://thume.ca/ray-tracer-site/
+    title: Path Tracer
+    image: raytracer.jpg
+    image-height: 60
+    desc: |
+      A path tracing renderer capable of rendering photorealistic images. Supports a physically based BRDF, texture/normal mapping, area lights, glossy reflection, anti-aliasing, DOF, CSG, fractals, portals and much more.
   - name: Syntect
     link: https://github.com/trishume/syntect
     title: Syntax highlighting Library
@@ -114,13 +121,6 @@ Projects:
     image-height: 60
     desc: |
       A fast high quality syntax highlighting library in Rust based on Sublime Text 3's grammars. Well documented and tested, with active contributors. Powers two commercial products parsing terabytes of code per day.
-  - name: Dayder
-    link: http://dayder.thume.ca/
-    title: Spurious correlation finding web app
-    image: dayder.png
-    image-height: 60
-    desc: |
-      A Rust web app for finding spurious correlations in 390,000 time series data sets. I wrote custom optimized DOM, JS Canvas rendering, caching, correlation and [binary serialization](https://github.com/trishume/dayder/blob/master/format.md) code for instantly responding to queries.
   - name: The Open Turing Compiler
     title: LLVM front-end, IDE and library
     link: https://github.com/trishume/OpenTuringCompiler
@@ -134,7 +134,7 @@ Projects:
     image: polytype.jpg
     image-height: 60
     desc: |
-      I built a working keyboard I designed in AutoCAD and put together with laser cut acrylic layers, Cherry MX switches, lots of soldering, and an ARM microcontroller.
+      I built a working keyboard I created with AutoCAD, laser cut acrylic, [custom firmware](https://github.com/trishume/PolyType), and soldered electronics.
   - name: SmartGaze
     link: https://github.com/trishume/SmartGaze
     title: Eye tracking algorithms
@@ -149,6 +149,13 @@ Projects:
     image-height: 70
     desc: |
       An IOS app for long term personal finance simulation with 7000 users. Has a custom built UI that instantly updates a visualization of your entire life's financial future while you manipulate inputs.
+  - name: Dayder
+    link: http://dayder.thume.ca/
+    title: Spurious correlation finding web app
+    image: dayder.png
+    image-height: 60
+    desc: |
+      A Rust web app for finding spurious correlations in 390,000 time series data sets. I wrote custom optimized DOM, JS Canvas rendering, caching, correlation and [binary serialization](https://github.com/trishume/dayder/blob/master/format.md) code for instantly responding to queries.
   - name: Rate With Science
     link: http://thume.ca/2015/03/30/wikipedia-link-graphs-and-terrible-hacks/
     title: Wikipedia data processing
