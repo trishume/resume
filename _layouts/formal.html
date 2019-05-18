@@ -16,32 +16,19 @@
   <!-- Remove class="print" to get a colour pdf -->
   <body class="print">
     <div id="bg">
-      <div id = "buttons">
-        <a href = "TristanHumeResume.pdf">
-          <i class="fa fa-file-pdf-o"></i>
-          One Page PDF Version
-        </a>
-      </div>
-
       <div class="container header">
         <div class="main my-name">
           <h1><a href="http://thume.ca/">Tristan Hume</a></h1>
-          <h5>Software Developer - BCS from the University of Waterloo</h5>
+          <!-- <h5>BCS from the University of Waterloo</h5> -->
         </div>
         <div class="sidebar links">
           <i class="fa fa-globe"></i><a href="http://thume.ca">thume.ca</a><br>
-          <i class="fa fa-github-alt"></i><a href="https://github.com/trishume/">github.com/trishume</a><br>
+          <i class="fa fa-phone"></i>(613) 862-8776<br>
           <i class="fa fa-envelope"></i><a href="mailto:tristan@thume.ca">tristan@thume.ca</a><br>
         </div>
       </div>
     </div>
 
     {{ content }}
-    <script>
-      function showMore(level, index) {
-        document.getElementById("desc-"+level+"-"+index).classList.add("hidden");
-        document.getElementById("desc-"+(level+1)+"-"+index).classList.remove("hidden");
-      }
-    </script>
   </body>
 </html>

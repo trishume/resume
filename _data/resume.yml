@@ -1,6 +1,19 @@
 Work:
+  # Yes, you who found this file on Github can see private items, but I don't really care that much,
+  # it just controls what I choose to advertise super publicly on my website
+  - name: Machine Intelligence Research Institute
+    link: http://intelligence.org/
+    address: 2036 Bancroft Way, Berkeley, CA 94704, USA
+    title: Intern
+    time: Fall 2018
+    dates: 2018/09/04 - 2018/12/21
+    private: true
+    desc: |
+      - Worked on a soundness proof for a dependently typed programming language in the Lean theorem proving language
+      - Developed a GAN-like scheme to learn encodings in autoencoders based on non-differentiable human feedback instead of simple losses like L2.
   - name: Cruise
     link: http://getcruise.com/
+    address: 1201 Bryant St, San Francisco, CA 94103, USA
     title: Computer Vision Intern
     time: Winter 2018
     dates: 2018/01/02 - 2018/04/20
@@ -12,6 +25,7 @@ Work:
       - Designed, tuned, tested and integrated a machine learning model for detecting flares from rain on camera lenses.
   - name: Google
     link: http://google.com/
+    address: 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
     title: Software Engineering Intern
     time: Summer 2017
     dates: 2017/05/01 - 2017/08/04
@@ -21,7 +35,9 @@ Work:
     desc: |
       - Worked on an [open-source](https://github.com/google/xi-editor/issues/250), [heavily documented](https://github.com/google/xi-editor/blob/e8065a3993b80af0aadbca0e50602125d60e4e38/doc/crdt-details.md) Conflict-free Replicated Data Type for text, refining it for fast and seamless editing and merging.
       - Implemented multi-device text synchronization for the [Fuchsia operating system](https://fuchsia.googlesource.com/docs/+/master/book.md) including reliable merging of changes after editing offline across devices.
-  - name: Jane Street Capital
+  - name: Jane Street
+    formalname: Jane Street Europe
+    address: 20 Fenchurch St, London EC3M 3BY, UK
     link: http://janestreet.com/
     title: Developer Intern
     time: Fall 2016
@@ -35,7 +51,9 @@ Work:
       - Implemented parsing and processing code for a low latency binary UDP market data feed with zero-allocation OCaml. Learned a lot about finance in the process.
       - Developed [a custom tree diffing algorithm](http://thume.ca/2017/06/17/tree-diffing/) based on minimizing a cost model using dynamic programming accelerated with an A* search for large trees.
   - name: UWaterloo HCI Lab
+    formalname: University of Waterloo HCI Lab
     link: http://hci.cs.uwaterloo.ca/
+    address: 200 University Ave W, Waterloo, ON N2L 3G1, Canada
     title: Undergraduate Researcher
     time: Winter 2016
     dates: 2016/01/04 - 2016/04/19
@@ -48,6 +66,7 @@ Work:
   - name: Shopify
     modifier: Shipping Team
     link: https://www.shopify.com/
+    address: 150 Elgin St, Ottawa, ON K2P 1L4, Canada
     title: Developer Intern
     time: Summer 2015
     dates: 2015/05/04 - 2015/08/28
@@ -64,6 +83,7 @@ Work:
   - name: Shopify
     modifier: Stack Team
     link: https://www.shopify.com/
+    address: 150 Elgin St, Ottawa, ON K2P 1L4, Canada
     title: Developer Intern
     time: Summer 2014
     dates: 2014/08/05 - 2014/08/29
@@ -76,6 +96,7 @@ Work:
   - name: Shopify
     modifier: Apps Team
     link: https://www.shopify.com/
+    address: 150 Elgin St, Ottawa, ON K2P 1L4, Canada
     title: Developer Intern
     time: Summer 2013
     dates: 2013/07/01 - 2013/08/30
@@ -87,6 +108,7 @@ Work:
       - Wrote a <a href="https://github.com/Shopify/liquid/pull/235">recursive descent parser</a> for <a href="https://github.com/shopify/liquid">Liquid</a> that replaces the regex based one and properly detects syntax errors.
   - name: The Eclipse Foundation
     link: https://eclipse.org/ide/
+    address: 2934 Baseline Road, Suite 202, Ottawa, ON K2H 1B2, Canada
     title: High-school Co-op Developer
     time: Fall 2012
     dates: 2012/09/17 - 2013/01/18
@@ -97,6 +119,7 @@ Work:
       Submitted patches for many bugs including ones that have been around for eleven years and have affected hundreds of thousands of people.
   - name: Halogen Software
     link: http://www.halogensoftware.com/
+    address: 495 March Rd, Kanata, ON K2K 3G1, Canada
     title: Student Software Developer
     time: Summer 2012
     dates: 2012/08/13 - 2012/08/31
@@ -107,11 +130,12 @@ Work:
       - Automated a data entry process from two weeks of work down to 5 minutes in one afternoon of Ruby scripting.
       - Developed a time estimate, prototype and guide for making the Halogen system section 508 accessibility standards compliant.
 Projects:
+  # TODO: CS444 Compiler, Sublime Rust Auto-import, portmanteau generator
   - name: Yūbinkyoku
     link: http://thume.ca/ray-tracer-site/
     title: Path Tracer
     image: raytracer.jpg
-    image-height: 60
+    image-height: 75
     desc: |
       A path tracing renderer capable of rendering photorealistic images. Supports a physically based BRDF, texture/normal mapping, area lights, glossy reflection, anti-aliasing, DOF, CSG, fractals, portals and much more.
   - name: Syntect
@@ -153,7 +177,7 @@ Projects:
     link: http://dayder.thume.ca/
     title: Spurious correlation finding web app
     image: dayder.png
-    image-height: 60
+    image-height: 70
     desc: |
       A Rust web app for finding spurious correlations in 390,000 time series data sets. I wrote custom optimized DOM, JS Canvas rendering, caching, correlation and [binary serialization](https://github.com/trishume/dayder/blob/master/format.md) code for instantly responding to queries.
   - name: Rate With Science
@@ -174,14 +198,14 @@ Projects:
     link: http://thume.ca/indexView/
     title: JS canvas visualization
     image: indexview.png
-    image-height: 60
+    image-height: 70
     desc: |
       An exploration tool for long term financial market data written in JavaScript with a custom canvas graph widget allowing for fluid zooming and navigation of hundreds of years of data with live stats.
   - name: Quickdown
     link: https://github.com/trishume/quickdown
     title: Fast Markdown viewer
     image: quickdown.png
-    image-height: 60
+    image-height: 70
     desc: |
       An ultra-fast lightweight Markdown viewer written in Rust with GPU rendering by Webrender. Uses a custom document model, styling and text layout to start up and load enormous documents in 0.5s with 60fps scrolling.
   - name: Electioneering
@@ -242,7 +266,7 @@ Projects:
     link: https://github.com/trishume/EmojiEngine
     title: WebGL emoji renderer
     image: emojiengine.png
-    image-height: 60
+    image-height: 70
     desc: |
       The world's fastest rendering engine for emoji and only emoji. Uses instanced mip-mapped point sprites with no overdraw to render 90k emojis at 60fps in a browser using WebGL.
       Made for [TerribleHack X](http://terriblehack.website/).

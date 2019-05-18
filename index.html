@@ -6,6 +6,7 @@ layout: "default"
   {% include sidebar.html %}
 
   <div class="main">
+    {% assign showprivate = false %}
     {% for section in site.data.resume %}
       {% assign sectionname = section[0] %}
       {% assign sectioncontent = section[1] %}

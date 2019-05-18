@@ -1,0 +1,18 @@
+{% for item in sectioncontent %}
+{% if item.private != true or showprivate == true %}
+<div class="item">
+  <div class="item-header">
+    <h3><a href="{{ item.link }}">{% if item.formalname %}{{item.formalname}}{% else %}{{ item.name }}{% endif %}{% if item.modifier %} ({{item.modifier}}){% endif %}</a></h3>
+    <span class="item-info">
+     {{ item.title }}{% if item.dates %},
+     <span class="item-time">{{ item.dates }}</span>
+     {% endif %}
+   </span>
+  </div>
+  <h4>{{ item.address }}</h4>
+  <div class="item-body">
+      {{ item.desc | markdownify }}
+  </div>
+</div>
+{% endif %}
+{% endfor %}

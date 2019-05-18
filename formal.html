@@ -1,0 +1,35 @@
+---
+layout: "formal"
+---
+{% assign showprivate = true %}
+{% assign firstprojects = 4 %}
+<div class="container">
+  <div class="main try-no-break">
+    <h2>Education</h2>
+    <div class="item">
+      <div class="item-header">
+        <h3>University of Waterloo</h3>
+        <h4>{{ item.address }}</h4>
+        <span class="item-info">
+         Honours Computer Science, 2014/09/08-2019/04/26
+       </span>
+      </div>
+      <h4>200 University Ave W, Waterloo, ON N2L 3G1, Canada</h4>
+      <div class="item-body">
+          I have a bachelor's degree in Honours Computer Science from the University of Waterloo which I completed on April 26th 2019 with a cumulative average of 89.4% and an in-major average of 92.75%.
+      </div>
+    </div>
+    {% for section in site.data.resume %}
+      {% if section[0] == 'Projects' %}
+        <h2>Selected Projects</h2>
+        {% assign projects = section[1] | slice: 0, firstprojects %}
+        {% assign imagewidth = 60 %}
+        {% include rightprojects.html %}
+      {% else %}
+        <h2>Experience</h2>
+        {% assign sectioncontent = section[1] %}
+        {% include formalsection.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

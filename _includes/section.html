@@ -1,5 +1,6 @@
 <h2>{{ sectionname }}</h2>
 {% for item in sectioncontent %}
+{% if item.private != true or showprivate == true %}
 <div class="item">
   {% if item.image %}
   <div class="side-image">
@@ -33,4 +34,5 @@
     {% endif %}
   </div>
 </div>
+{% endif %}
 {% endfor %}
