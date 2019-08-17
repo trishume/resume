@@ -1,4 +1,17 @@
 Work:
+  - name: Jane Street
+    formalname: Jane Street
+    address: 250 Vesey St
+    link: http://janestreet.com/
+    title: Developer
+    time: Current job
+    dates: 2019/08/12 - present
+    image: janestreetlambda.png
+    image-height: 50
+    image-no-pop: true
+    # short-desc: "Internship at the London UK office in progress..."
+    desc: |
+      - Working on latency optimization of trading systems
   # Yes, you who found this file on Github can see private items, but I don't really care that much,
   # it just controls what I choose to advertise super publicly on my website
   - name: Machine Intelligence Research Institute
@@ -173,6 +186,11 @@ Projects:
     image-height: 70
     desc: |
       An IOS app for long term personal finance simulation with 7000 users. Has a custom built UI that instantly updates a visualization of your entire life's financial future while you manipulate inputs.
+  - name: QuestSaberPatch
+    link: http://thume.ca/2019/07/26/writing-a-beat-saber-patcher/
+    title: Beat Saber Patcher
+    desc: |
+      I figured out the Unity binary assets file format used by the game [Beat Saber](https://beatsaber.com/) on the [Oculus Quest VR headset](https://www.oculus.com/quest/) and wrote a patcher in C# that can add custom songs to the game. It was incorporated into [SideQuest](https://sidequestvr.com) and used by over 80,000 people.
   - name: Dayder
     link: http://dayder.thume.ca/
     title: Spurious correlation finding web app
@@ -187,6 +205,13 @@ Projects:
     image-height: 70
     desc: |
       I [extracted the link graph](https://github.com/trishume/wikicrush) of Wikipedia into a 600MB binary file with a custom format designed for [fast path finding in memory](https://github.com/trishume/ratewithscience). I've rewritten the path-finding server in Rust, Nim and D for fun.
+  - name: Blog
+    link: http://thume.ca/archive.html
+    title: Useful tech articles
+    image: blog.png
+    image-height: 60
+    desc: |
+      I write articles for my blog including [write-ups of engineering experiences](http://thume.ca/2017/06/17/tree-diffing/) and [reverse engineering stories](http://thume.ca/2016/02/02/a-reverse-engineering-adventure-eye-tribes-usb-protocol/). Some of my articles have [made it to the top of Hacker News](https://news.ycombinator.com/from?site=thume.ca).
   - name: EyeLike
     link: https://github.com/trishume/eyeLike
     title: OpenCV pupil tracking implementation
@@ -222,13 +247,6 @@ Projects:
     image-height: 60
     desc: |
       Contributed many layers and fixes to <a href="https://github.com/syl20bnr/spacemacs">the Spacemacs Emacs distribution</a>. I was the <a href="https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#first-times">First contributor</a> and a long-time top contributor.
-  - name: Blog
-    link: http://thume.ca/archive.html
-    title: Useful tech articles
-    image: blog.png
-    image-height: 60
-    desc: |
-      I post useful posts on my blog ranging from [tutorials](http://thume.ca/howto/2015/03/07/configuring-spacemacs-a-tutorial/) to [reverse engineering stories](http://thume.ca/2016/02/02/a-reverse-engineering-adventure-eye-tribes-usb-protocol/). My various posts have garnered over 200,000 views.
   - name: DoubleVision
     link: https://github.com/trishume/doubleVision
     title: PNG image trickery
