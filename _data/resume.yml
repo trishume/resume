@@ -164,7 +164,7 @@ Projects:
     image: openturing.png
     image-height: 70
     desc: |
-      An LLVM based compiler for [Turing](https://en.wikipedia.org/wiki/Turing_(programming_language)) as well as a Qt-based IDE and a simple drawing library.
+      An LLVM based compiler for [Turing](https://en.wikipedia.org/wiki/Turing_(programming_language)) as well as a Qt-based IDE and a simple drawing library. Made when I was in grade 10.
   - name: PolyType
     link: http://thume.ca/2014/09/08/creating-a-keyboard-1-hardware/
     title: Designed & built a keyboard
@@ -186,6 +186,20 @@ Projects:
     image-height: 70
     desc: |
       An IOS app for long term personal finance simulation with 7000 users. Has a custom built UI that instantly updates a visualization of your entire life's financial future while you manipulate inputs.
+  - name: Telefork
+    link: https://github.com/trishume/telefork
+    title: Process teleportation
+    image: telefork.png
+    image-height: 70
+    desc: |
+      I made a Rust library that can fork a Linux process onto a different computer by streaming all the memory mappings and register state and using ptrace trickery to recreate it.
+  - name: Numderline
+    link: https://blog.janestreet.com/commas-in-big-numbers-everywhere/
+    title: Stunt font
+    image: numderline.png
+    image-height: 60
+    desc: |
+      I made [a font](https://thume.ca/numderline) that makes it easier to read large numbers by putting fake commas into them or underlining alternating digit groups using font shaping.
   - name: QuestSaberPatch
     link: http://thume.ca/2019/07/26/writing-a-beat-saber-patcher/
     title: Beat Saber Patcher
@@ -212,6 +226,11 @@ Projects:
     image-height: 60
     desc: |
       I write articles for my blog including [write-ups of engineering experiences](http://thume.ca/2017/06/17/tree-diffing/) and [reverse engineering stories](http://thume.ca/2016/02/02/a-reverse-engineering-adventure-eye-tribes-usb-protocol/). Some of my articles have [made it to the top of Hacker News](https://news.ycombinator.com/from?site=thume.ca).
+  - name: CS444 Compiler
+    link: https://thume.ca/2019/04/18/writing-a-compiler-in-rust/
+    title: Java subset compiler in Rust
+    desc: |
+      I made a compiler from a substantial subset of Java to machine code along with 2 teammates for UWaterloo's CS444 compiler class. I wrote about how [our design decisions](https://thume.ca/2019/04/18/writing-a-compiler-in-rust/) lead to it being [less code than some other teams approaches](https://thume.ca/2019/04/29/comparing-compilers-in-rust-haskell-c-and-python/).
   - name: EyeLike
     link: https://github.com/trishume/eyeLike
     title: OpenCV pupil tracking implementation
@@ -376,11 +395,21 @@ Projects:
     image: lastsecondslides.png
     image-height: 60
     desc: Generates slides as you speak using the Google speech-to-text API. Made for the TerribleHack hackathon.
+  - name: MaximallyDirect2d
+    link: https://devpost.com/software/maximallydirect2d
+    image: maximallydirect2d.jpg
+    image-height: 60
+    desc: Renders directly from UDP packet buffers to the screen for the lowest latency by taking advantage of shared memory on integrated GPUs. Made for the TerribleHack hackathon.
   - name: Faiyels
     link: https://github.com/trishume/faiyels
     image: faiyels.png
     image-height: 60
     desc: Explore an overview of a codebase by rendering every character as a tiny syntax highlighted dot. Written with Rust, syntect and gfx-rs.
+  - name: Portmanteau Generator
+    link: https://github.com/trishume/portmanteau
+    image: portmanteau.png
+    image-height: 60
+    desc: Generates high quality portmanteus linking two words using a graph search. Made for the TerribleHack hackathon.
   - name: Grade 11 Math Summative
     link: http://thume.ca/2013/12/09/math-summative-program/
     title: Drawing with functions
