@@ -1,17 +1,29 @@
 Work:
+  - name: Anthropic
+    address: 731 Sansome St, San Francisco, CA 94111
+    link: http://anthropic.com/
+    title: Member of Technical Staff
+    time: Current Job
+    dates: 2022/02/07 - present
+    image: anthropic-logo.jpeg
+    image-height: 50
+    image-no-pop: true
+    desc: |
+      - Working on language model interpretability research and tools.
   - name: Jane Street
     formalname: Jane Street
-    address: 250 Vesey St
+    address: 250 Vesey St, New York, NY 10281
     link: http://janestreet.com/
     title: Developer
-    time: Current job
-    dates: 2019/08/12 - present
+    time: 2019-2021
+    dates: 2019/08/12 - 2022/01/28
     image: janestreetlambda.png
     image-height: 50
     image-no-pop: true
-    # short-desc: "Internship at the London UK office in progress..."
     desc: |
-      - Working on latency optimization of trading systems
+      - Designed and built [high-performance tracing tooling](https://github.com/janestreet/tracing), including [a unique tool using Intel Processor Trace](https://blog.janestreet.com/magic-trace/)
+      - Analyzed distributed system performance using Python and data visualization in Jupyter Notebooks.
+      - Latency optimization of trading systems
   # Yes, you who found this file on Github can see private items, but I don't really care that much,
   # it just controls what I choose to advertise super publicly on my website
   - name: Machine Intelligence Research Institute
